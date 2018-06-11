@@ -1,15 +1,26 @@
 {
-  "name": "pg-model",
+  "name": "@wmfs/pg-model",
+  "version": "0.0.0-semantically-released",
   "description": "Takes a relational database structure and returns model objects for noSQL-like abilities.",
-  "version": "0.0.10",
-  "author": "Tim Needham",
+  "author": "West Midlands Fire Service",
+  "homepage": "https://github.com/wmfs/pg-model#readme",
   "keywords": [
+    "tymly",
+    "package",
     "nosql",
     "relational"
   ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmfs/pg-model.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wmfs/pg-model/issues"
+  },
   "main": "./lib/index.js",
   "dependencies": {
-    "async": "2.6.1",
+    "async": "2.6.0",
     "boom": "7.2.0",
     "debug": "3.1.0",
     "dottie": "2.0.0",
@@ -17,22 +28,27 @@
   },
   "devDependencies": {
     "chai": "4.1.2",
-    "chai-subset": "1.6.0",
-    "hl-pg-client": "^0.0.2",
+    "codecov": "3.0.2",
+    "cz-conventional-changelog": "2.1.0",
     "mocha": "5.2.0",
-    "pg-diff-sync": "^0.0.12",
-    "standard": "11.0.1"
+    "nyc": "12.0.2",
+    "semantic-release": "^15.5.1",
+    "standard": "11.0.1",
+    "@wmfs/hl-pg-client": "1.1.0",
+    "@wmfs/pg-diff-sync": "1.0.0"
   },
   "scripts": {
     "lint": "standard",
-    "test": "standard && mocha"
+    "test": "nyc mocha && standard",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "semantic-release": "semantic-release"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wmfs/tymly"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
-  "bugs": {
-    "url": "https://github.com/wmfs/tymly/issues"
+  "publishConfig": {
+    "access": "public"
   }
 }

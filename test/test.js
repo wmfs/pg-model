@@ -4,10 +4,10 @@
 
 const process = require('process')
 const pgModel = require('./../lib')
-const HlPgClient = require('hl-pg-client')
+const HlPgClient = require('@wmfs/hl-pg-client')
 const empty = require('./fixtures/empty.json')
 const planets = require('./fixtures/people-and-planets.json')
-const pgDiffSync = require('pg-diff-sync')
+const pgDiffSync = require('@wmfs/pg-diff-sync')
 const async = require('async')
 const path = require('path')
 const chai = require('chai')
