@@ -94,7 +94,6 @@ describe('UserId injection test', function () {
         }
       )
     })
-
   })
 
   describe('update', () => {
@@ -201,7 +200,7 @@ describe('UserId injection test', function () {
         'firstName': 'Abe',
         'lastName': 'Simpson',
         'age': 82,
-        'createdBy': 'upseter',
+        'createdBy': 'upserter',
         'modifiedBy': null
       })
     })
