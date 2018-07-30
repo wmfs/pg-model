@@ -1,3 +1,15 @@
+## [1.1.1](https://github.com/wmfs/pg-model/compare/v1.1.0...v1.1.1) (2018-07-30)
+
+
+### 🐛 Bug Fixes
+
+* Fix upsert when on conflict do nothing ([3483d8f](https://github.com/wmfs/pg-model/commit/3483d8f))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update semantic-release requirement to 15.9.1 ([78309e8](https://github.com/wmfs/pg-model/commit/78309e8))
+
 # [1.1.0](https://github.com/wmfs/pg-model/compare/v1.0.2...v1.1.0) (2018-07-28)
 
 
