@@ -1,3 +1,33 @@
+## [1.1.2](https://github.com/wmfs/pg-model/compare/v1.1.1...v1.1.2) (2018-09-05)
+
+
+### 🐛 Bug Fixes
+
+* If there are no update columns, don't add the modifiedByField ([adb9438](https://github.com/wmfs/pg-model/commit/adb9438))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement from 7.0.1 to 7.0.2 ([d8b86c6](https://github.com/wmfs/pg-model/commit/d8b86c6))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement from 7.0.2 to 7.0.3 ([6b9b9ad](https://github.com/wmfs/pg-model/commit/6b9b9ad))
+* **deps-dev:** update codecov requirement from 3.0.4 to 3.1.0 ([19d8cd7](https://github.com/wmfs/pg-model/commit/19d8cd7))
+* **deps-dev:** update nyc requirement from 12.0.2 to 13.0.1 ([146aea6](https://github.com/wmfs/pg-model/commit/146aea6))
+* **deps-dev:** update semantic-release requirement from 15.9.11 to 15.9.12 ([8a360d9](https://github.com/wmfs/pg-model/commit/8a360d9))
+* **deps-dev:** update semantic-release requirement from 15.9.3 to 15.9.5 ([214d139](https://github.com/wmfs/pg-model/commit/214d139))
+* **deps-dev:** update semantic-release requirement from 15.9.5 to 15.9.6 ([4f5095a](https://github.com/wmfs/pg-model/commit/4f5095a))
+* **deps-dev:** update semantic-release requirement from 15.9.6 to 15.9.7 ([0277dbb](https://github.com/wmfs/pg-model/commit/0277dbb))
+* **deps-dev:** update semantic-release requirement from 15.9.7 to 15.9.8 ([60b020b](https://github.com/wmfs/pg-model/commit/60b020b))
+* **deps-dev:** update semantic-release requirement from 15.9.8 to 15.9.9 ([374da3b](https://github.com/wmfs/pg-model/commit/374da3b))
+* **deps-dev:** update semantic-release requirement from 15.9.9 to 15.9.11 ([7f3a701](https://github.com/wmfs/pg-model/commit/7f3a701))
+* **deps-dev:** update semantic-release requirement to 15.9.2 ([aa0d19e](https://github.com/wmfs/pg-model/commit/aa0d19e))
+* **deps-dev:** update semantic-release requirement to 15.9.3 ([b7776da](https://github.com/wmfs/pg-model/commit/b7776da))
+* **dev-deps:** move to standard 12.0.1 ([314dca5](https://github.com/wmfs/pg-model/commit/314dca5))
+
+
+### ♻️ Chores
+
+* codecov 3.0.3 -> 3.0.4 ([97e1f95](https://github.com/wmfs/pg-model/commit/97e1f95))
+
 ## [1.1.1](https://github.com/wmfs/pg-model/compare/v1.1.0...v1.1.1) (2018-07-30)
 
 
