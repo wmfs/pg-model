@@ -302,8 +302,8 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.person.find(
           {
             where: {
-              firstName: {equals: 'Bart'},
-              lastName: {equals: 'Simpson'}
+              firstName: { equals: 'Bart' },
+              lastName: { equals: 'Simpson' }
             }
           }
         )
@@ -325,7 +325,7 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.peeps.find(
           {
             where: {
-              name: {equals: 'Bart Simpson'}
+              name: { equals: 'Bart Simpson' }
             }
           }
         )
@@ -411,8 +411,8 @@ describe('Promise API', function () {
         return models.pgmodelTest.person.findOne(
           {
             where: {
-              firstName: {equals: 'Homer'},
-              lastName: {equals: 'Simpson'}
+              firstName: { equals: 'Homer' },
+              lastName: { equals: 'Simpson' }
             }
           }
         ).then(doc =>
@@ -431,7 +431,7 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.peeps.findOne(
           {
             where: {
-              name: {equals: 'Homer Simpson'}
+              name: { equals: 'Homer Simpson' }
             }
           }
         )
@@ -445,8 +445,8 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.person.findOne(
           {
             where: {
-              firstName: {equals: 'Ned'},
-              lastName: {equals: 'Flanders'}
+              firstName: { equals: 'Ned' },
+              lastName: { equals: 'Flanders' }
             }
           }
         )
@@ -458,7 +458,7 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.peeps.findOne(
           {
             where: {
-              name: {equals: 'Ned Flanders'}
+              name: { equals: 'Ned Flanders' }
             }
           }
         )
@@ -801,7 +801,7 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.moons.findOne(
           {
             where: {
-              title: {'equals': 'Phobos'}
+              title: { 'equals': 'Phobos' }
             }
           }
         )
@@ -826,7 +826,7 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.moons.findOne(
           {
             where: {
-              title: {'equals': 'Deimos'}
+              title: { 'equals': 'Deimos' }
             }
           }
         )
@@ -938,7 +938,7 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.moons.findOne({
           filter: {
             where: {
-              title: {'equals': 'Phobos'}
+              title: { 'equals': 'Phobos' }
             }
           }
         })

@@ -88,7 +88,7 @@ describe('Callback API', function () {
             expect(err).to.equal(null)
             expect(idProperties).to.eql(
               {
-                idProperties: {employeeNo: '1'}
+                idProperties: { employeeNo: '1' }
               }
             )
             done()
@@ -197,7 +197,7 @@ describe('Callback API', function () {
         models.pgmodelTest.person.find(
           {
             where: {
-              age: {moreThan: 36}
+              age: { moreThan: 36 }
             }
           },
           function (err, doc) {
@@ -212,7 +212,7 @@ describe('Callback API', function () {
         models.pgmodelTest.person.find(
           {
             where: {
-              age: {moreThanEquals: 36}
+              age: { moreThanEquals: 36 }
             }
           },
           function (err, doc) {
@@ -228,7 +228,7 @@ describe('Callback API', function () {
         models.pgmodelTest.person.find(
           {
             where: {
-              age: {lessThan: 36}
+              age: { lessThan: 36 }
             }
           },
           function (err, doc) {
@@ -244,7 +244,7 @@ describe('Callback API', function () {
         models.pgmodelTest.person.find(
           {
             where: {
-              age: {lessThanEquals: 36}
+              age: { lessThanEquals: 36 }
             }
           },
           function (err, doc) {
@@ -261,7 +261,7 @@ describe('Callback API', function () {
         models.pgmodelTest.person.find(
           {
             where: {
-              firstName: {like: 'Mar'}
+              firstName: { like: 'Mar' }
             }
           },
           function (err, doc) {
@@ -381,8 +381,8 @@ describe('Callback API', function () {
         models.pgmodelTest.person.find(
           {
             where: {
-              firstName: {equals: 'Bart'},
-              lastName: {equals: 'Simpson'}
+              firstName: { equals: 'Bart' },
+              lastName: { equals: 'Simpson' }
             }
           },
           function (err, doc) {
@@ -467,8 +467,8 @@ describe('Callback API', function () {
         models.pgmodelTest.person.findOne(
           {
             where: {
-              firstName: {equals: 'Homer'},
-              lastName: {equals: 'Simpson'}
+              firstName: { equals: 'Homer' },
+              lastName: { equals: 'Simpson' }
             }
           },
           function (err, doc) {
@@ -491,8 +491,8 @@ describe('Callback API', function () {
         models.pgmodelTest.person.findOne(
           {
             where: {
-              firstName: {equals: 'Ned'},
-              lastName: {equals: 'Flanders'}
+              firstName: { equals: 'Ned' },
+              lastName: { equals: 'Flanders' }
             }
           },
           function (err, doc) {
@@ -881,7 +881,7 @@ describe('Callback API', function () {
         models.pgmodelTest.moons.findOne(
           {
             where: {
-              title: {'equals': 'Phobos'}
+              title: { 'equals': 'Phobos' }
             }
           },
           function (err, doc) {
@@ -909,7 +909,7 @@ describe('Callback API', function () {
         models.pgmodelTest.moons.findOne(
           {
             where: {
-              title: {'equals': 'Deimos'}
+              title: { 'equals': 'Deimos' }
             }
           },
           function (err, doc) {
@@ -1047,7 +1047,7 @@ describe('Callback API', function () {
           {
             filter: {
               where: {
-                title: {'equals': 'Phobos'}
+                title: { 'equals': 'Phobos' }
               }
             }
           },
