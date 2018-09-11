@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/wmfs/pg-model/compare/v1.2.0...v1.3.0) (2018-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 3.2.1 to 3.2.2 ([abe249c](https://github.com/wmfs/pg-model/commit/abe249c))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([8ed85da](https://github.com/wmfs/pg-model/commit/8ed85da))
+
 # [1.2.0](https://github.com/wmfs/pg-model/compare/v1.1.2...v1.2.0) (2018-09-11)
 
 
