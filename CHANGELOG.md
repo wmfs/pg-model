@@ -1,3 +1,13 @@
+# [1.7.0](https://github.com/wmfs/pg-model/compare/v1.6.0...v1.7.0) (2018-09-12)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash requirement from 4.17.10 to 4.17.11 ([a7a2dfb](https://github.com/wmfs/pg-model/commit/a7a2dfb))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([17266a2](https://github.com/wmfs/pg-model/commit/17266a2))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/pg-diff-sync requirement ([18f7ab3](https://github.com/wmfs/pg-model/commit/18f7ab3))
+* **deps-dev:** update semantic-release requirement ([854f93b](https://github.com/wmfs/pg-model/commit/854f93b))
+
 # [1.6.0](https://github.com/wmfs/pg-model/compare/v1.5.0...v1.6.0) (2018-09-11)
 
 
