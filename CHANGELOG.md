@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/wmfs/pg-model/compare/v1.7.0...v1.8.0) (2018-10-08)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 4.0.1 to 4.1.0 ([01358ad](https://github.com/wmfs/pg-model/commit/01358ad))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([05e59f4](https://github.com/wmfs/pg-model/commit/05e59f4))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/pg-diff-sync requirement ([af48f55](https://github.com/wmfs/pg-model/commit/af48f55))
+* **deps-dev:** update chai requirement from 4.1.2 to 4.2.0 ([3914d90](https://github.com/wmfs/pg-model/commit/3914d90))
+* **deps-dev:** update semantic-release requirement ([70f4131](https://github.com/wmfs/pg-model/commit/70f4131))
+* **deps-dev:** update semantic-release requirement ([f930c68](https://github.com/wmfs/pg-model/commit/f930c68))
+
 # [1.7.0](https://github.com/wmfs/pg-model/compare/v1.6.0...v1.7.0) (2018-09-12)
 
 
