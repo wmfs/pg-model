@@ -1,3 +1,18 @@
+# [1.9.0](https://github.com/wmfs/pg-model/compare/v1.8.0...v1.9.0) (2018-10-23)
+
+
+### 🛠 Builds
+
+* **deps:** update dottie requirement from 2.0.0 to 2.0.1 ([e5c4e6f](https://github.com/wmfs/pg-model/commit/e5c4e6f))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([670c049](https://github.com/wmfs/pg-model/commit/670c049))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([b293d14](https://github.com/wmfs/pg-model/commit/b293d14))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([4545ed8](https://github.com/wmfs/pg-model/commit/4545ed8))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/pg-diff-sync requirement ([55366c3](https://github.com/wmfs/pg-model/commit/55366c3))
+* **deps-dev:** update nyc requirement from 13.0.1 to 13.1.0 ([bda6f47](https://github.com/wmfs/pg-model/commit/bda6f47))
+* **deps-dev:** update semantic-release requirement ([e6d74a9](https://github.com/wmfs/pg-model/commit/e6d74a9))
+* **deps-dev:** update semantic-release requirement ([59a93d3](https://github.com/wmfs/pg-model/commit/59a93d3))
+* **deps-dev:** update semantic-release requirement ([e158898](https://github.com/wmfs/pg-model/commit/e158898))
+
 # [1.8.0](https://github.com/wmfs/pg-model/compare/v1.7.0...v1.8.0) (2018-10-08)
 
 
