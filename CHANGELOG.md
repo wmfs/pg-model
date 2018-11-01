@@ -1,3 +1,13 @@
+# [1.10.0](https://github.com/wmfs/pg-model/compare/v1.9.0...v1.10.0) (2018-11-01)
+
+
+### 🛠 Builds
+
+* **deps:** update boom requirement from 7.2.0 to 7.2.1 ([4db5861](https://github.com/wmfs/pg-model/commit/4db5861))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([f807a22](https://github.com/wmfs/pg-model/commit/f807a22))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/pg-diff-sync requirement ([32aa4a4](https://github.com/wmfs/pg-model/commit/32aa4a4))
+* **deps-dev:** update semantic-release requirement ([ec5bbd7](https://github.com/wmfs/pg-model/commit/ec5bbd7))
+
 # [1.9.0](https://github.com/wmfs/pg-model/compare/v1.8.0...v1.9.0) (2018-10-23)
 
 
