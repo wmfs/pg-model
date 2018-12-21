@@ -5,10 +5,11 @@
 version: 2
 jobs:
   build:
-    filters:
-      branches:
-        only:
+    branches:
+      only:
         - dependabot/*
+      ignore:
+        - master
 
     docker:
     # specify the version you desire here
