@@ -1,3 +1,22 @@
+# [1.12.0](https://github.com/wmfs/pg-model/compare/v1.11.0...v1.12.0) (2018-12-21)
+
+
+### 🛠 Builds
+
+* **deps:** update boom requirement from 7.2.2 to 7.3.0 ([2760fdf](https://github.com/wmfs/pg-model/commit/2760fdf))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([beb3327](https://github.com/wmfs/pg-model/commit/beb3327))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/pg-diff-sync requirement ([77179e1](https://github.com/wmfs/pg-model/commit/77179e1))
+* **deps-dev:** update semantic-release requirement ([5b42b31](https://github.com/wmfs/pg-model/commit/5b42b31))
+* **deps-dev:** update semantic-release requirement ([640c3f0](https://github.com/wmfs/pg-model/commit/640c3f0))
+* **deps-dev:** update semantic-release requirement ([0635da3](https://github.com/wmfs/pg-model/commit/0635da3))
+* **deps-dev:** update semantic-release requirement ([915f655](https://github.com/wmfs/pg-model/commit/915f655))
+* **deps-dev:** update semantic-release requirement ([ef9838f](https://github.com/wmfs/pg-model/commit/ef9838f))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** fix the env for postgres ([63066fc](https://github.com/wmfs/pg-model/commit/63066fc))
+
 # [1.11.0](https://github.com/wmfs/pg-model/compare/v1.10.0...v1.11.0) (2018-11-03)
 
 
