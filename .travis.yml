@@ -2,13 +2,16 @@ language: node_js
 notifications:
   email: false
 node_js:
-  - '9'
+  - lts/*
 services:
   - postgres
 addons:
   postgresql: "9.6"
 sudo: false
 dist: trusty
+branches:
+  only:
+  - master
 env:
   global:
     - PG_CONNECTION_STRING=postgres://postgres:postgres@localhost:5432/travis_ci_test
