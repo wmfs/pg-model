@@ -6,8 +6,6 @@ version: 2
 jobs:
   build:
     branches:
-      only:
-        - dependabot/*
       ignore:
         - master
 
