@@ -22,7 +22,7 @@
   "dependencies": {
     "async": "2.6.1",
     "boom": "7.3.0",
-    "debug": "4.1.0",
+    "debug": "4.1.1",
     "dottie": "2.0.1",
     "lodash": "4.17.11"
   },
