@@ -1,3 +1,14 @@
+# [1.13.0](https://github.com/wmfs/pg-model/compare/v1.12.0...v1.13.0) (2019-02-08)
+
+
+### 🛠 Builds
+
+* **deps:** update debug requirement from 4.1.0 to 4.1.1 ([b429b9f](https://github.com/wmfs/pg-model/commit/b429b9f))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([983c1c4](https://github.com/wmfs/pg-model/commit/983c1c4))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([21accd0](https://github.com/wmfs/pg-model/commit/21accd0))
+* **deps-dev:** update nyc requirement from 13.1.0 to 13.2.0 ([41908d6](https://github.com/wmfs/pg-model/commit/41908d6))
+* **deps-dev:** update semantic-release requirement ([7a1aedc](https://github.com/wmfs/pg-model/commit/7a1aedc))
+
 # [1.12.0](https://github.com/wmfs/pg-model/compare/v1.11.0...v1.12.0) (2018-12-21)
 
 
