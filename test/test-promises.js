@@ -320,6 +320,53 @@ describe('Promise API', function () {
           ]
         )
       })
+      it('find Bart or Lisa by first name', async () => {
+        const doc = await models.pgmodelTest.person.find(
+          {
+            where: {
+              firstName: { equals: ['Bart', 'Lisa'] }
+            }
+          }
+        )
+
+        expect(doc).to.have.length(2)
+        expect(doc).to.containSubset(
+          [
+            {
+              'age': 10,
+              'employeeNo': '5',
+              'firstName': 'Bart',
+              'lastName': 'Simpson'
+            },
+            {
+              'age': 8,
+              'employeeNo': '3',
+              'firstName': 'Lisa',
+              'lastName': 'Simpson'
+            }
+          ]
+        )
+      })
+
+      it('find Bart by name', async () => {
+        const doc = await models.pgmodelTest.peeps.find(
+          {
+            where: {
+              name: { equals: 'Bart Simpson' }
+            }
+          }
+        )
+
+        expect(doc).to.have.length(1)
+        expect(doc).to.containSubset(
+          [
+            {
+              'employeeNo': '5',
+              'name': 'Bart Simpson'
+            }
+          ]
+        )
+      })
 
       it('find Bart by name', async () => {
         const doc = await models.pgmodelTest.peeps.find(
