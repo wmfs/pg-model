@@ -1,3 +1,16 @@
+# [1.14.0](https://github.com/wmfs/pg-model/compare/v1.13.0...v1.14.0) (2019-04-05)
+
+
+### ✨ Features
+
+* find filter - passing an array of values generates an OR subclause ([cb43876](https://github.com/wmfs/pg-model/commit/cb43876))
+
+
+### 📦 Code Refactoring
+
+* Pull out buildWhereClause in option-parser ([a5469ee](https://github.com/wmfs/pg-model/commit/a5469ee))
+* Swapped out _.forOwn in favour of for...of ([deef9d7](https://github.com/wmfs/pg-model/commit/deef9d7))
+
 # [1.13.0](https://github.com/wmfs/pg-model/compare/v1.12.0...v1.13.0) (2019-02-08)
 
 
