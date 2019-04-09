@@ -418,7 +418,6 @@ describe('Promise API', function () {
         )
       })
 
-
       it('find peeps', async () => {
         const doc = await models.pgmodelTest.peeps.find({ orderBy: ['employeeNo'] })
 
