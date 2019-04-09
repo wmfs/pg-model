@@ -1,3 +1,15 @@
+# [1.15.0](https://github.com/wmfs/pg-model/compare/v1.14.0...v1.15.0) (2019-04-09)
+
+
+### ✨ Features
+
+* Model.find options can now take fields array ([1a338c4](https://github.com/wmfs/pg-model/commit/1a338c4))
+
+
+### 💎 Styles
+
+* remove an empty line ([da4f907](https://github.com/wmfs/pg-model/commit/da4f907))
+
 # [1.14.0](https://github.com/wmfs/pg-model/compare/v1.13.0...v1.14.0) (2019-04-05)
 
 
