@@ -320,6 +320,25 @@ describe('Promise API', function () {
           ]
         )
       })
+
+      it('find Bart\'s name fields', async () => {
+        const doc = await models.pgmodelTest.person.find(
+          {
+            fields: ['firstName', 'lastName'],
+            where: {
+              firstName: { equals: 'Bart' },
+              lastName: { equals: 'Simpson' }
+            }
+          }
+        )
+
+        expect(doc).to.have.length(1)
+        expect(doc[0]).to.deep.equal({
+          'firstName': 'Bart',
+          'lastName': 'Simpson'
+        })
+      })
+
       it('find Bart or Lisa by first name', async () => {
         const doc = await models.pgmodelTest.person.find(
           {
@@ -343,26 +362,6 @@ describe('Promise API', function () {
               'employeeNo': '3',
               'firstName': 'Lisa',
               'lastName': 'Simpson'
-            }
-          ]
-        )
-      })
-
-      it('find Bart by name', async () => {
-        const doc = await models.pgmodelTest.peeps.find(
-          {
-            where: {
-              name: { equals: 'Bart Simpson' }
-            }
-          }
-        )
-
-        expect(doc).to.have.length(1)
-        expect(doc).to.containSubset(
-          [
-            {
-              'employeeNo': '5',
-              'name': 'Bart Simpson'
             }
           ]
         )
@@ -418,6 +417,7 @@ describe('Promise API', function () {
           ]
         )
       })
+
 
       it('find peeps', async () => {
         const doc = await models.pgmodelTest.peeps.find({ orderBy: ['employeeNo'] })
