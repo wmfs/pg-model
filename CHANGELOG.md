@@ -1,3 +1,17 @@
+# [1.16.0](https://github.com/wmfs/pg-model/compare/v1.15.0...v1.16.0) (2019-07-11)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash requirement from 4.17.11 to 4.17.14 ([59c55bd](https://github.com/wmfs/pg-model/commit/59c55bd))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([82a7bf7](https://github.com/wmfs/pg-model/commit/82a7bf7))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([da09341](https://github.com/wmfs/pg-model/commit/da09341))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([bee3623](https://github.com/wmfs/pg-model/commit/bee3623))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/pg-diff-sync requirement ([c42d504](https://github.com/wmfs/pg-model/commit/c42d504))
+* **deps-dev:** update codecov requirement from 3.1.0 to 3.5.0 ([4915560](https://github.com/wmfs/pg-model/commit/4915560))
+* **deps-dev:** update mocha requirement from 5.2.0 to 6.1.4 ([a92051e](https://github.com/wmfs/pg-model/commit/a92051e))
+* **deps-dev:** update nyc requirement from 13.2.0 to 14.1.1 ([afdbaf9](https://github.com/wmfs/pg-model/commit/afdbaf9))
+
 # [1.15.0](https://github.com/wmfs/pg-model/compare/v1.14.0...v1.15.0) (2019-04-09)
 
 
