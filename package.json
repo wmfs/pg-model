@@ -39,7 +39,7 @@
     "@semantic-release/changelog": "3.0.2",
     "@semantic-release/git": "7.0.16",
     "@wmfs/hl-pg-client": "1.11.1",
-    "@wmfs/pg-diff-sync": "1.13.2"
+    "@wmfs/pg-diff-sync": "1.14.0"
   },
   "scripts": {
     "lint": "standard",
