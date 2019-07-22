@@ -24,7 +24,7 @@
     "boom": "7.3.0",
     "debug": "4.1.1",
     "dottie": "2.0.1",
-    "lodash": "4.17.14"
+    "lodash": "4.17.15"
   },
   "devDependencies": {
     "chai": "4.2.0",
