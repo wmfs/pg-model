@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/wmfs/pg-model/compare/v1.16.0...v1.17.0) (2019-09-09)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash requirement from 4.17.14 to 4.17.15 ([cffa641](https://github.com/wmfs/pg-model/commit/cffa641))
+
 # [1.16.0](https://github.com/wmfs/pg-model/compare/v1.15.0...v1.16.0) (2019-07-11)
 
 
