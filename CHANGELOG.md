@@ -1,3 +1,19 @@
+# [1.18.0](https://github.com/wmfs/pg-model/compare/v1.17.0...v1.18.0) (2020-01-07)
+
+
+### 🛠 Builds
+
+* **deps:** update async requirement from 2.6.1 to 2.6.3 ([196ab93](https://github.com/wmfs/pg-model/commit/196ab932685844481619511113f734c27fcb6c59))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.13.0 to 1.14.0 ([d510ffb](https://github.com/wmfs/pg-model/commit/d510ffb3391045160e19df91815b182a77435caf))
+* **deps-dev:** bump mocha from 6.2.2 to 7.0.0 ([b8e7f15](https://github.com/wmfs/pg-model/commit/b8e7f153d6a56e1a18e3dd997066c76ef868752c))
+* **deps-dev:** bump packages ([529df42](https://github.com/wmfs/pg-model/commit/529df42b95b5816d44839f5d3ec19b5818206b84))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([ab6a239](https://github.com/wmfs/pg-model/commit/ab6a239410260fdaa7a886eae56ec890ee5cbdb5))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([b9b2c05](https://github.com/wmfs/pg-model/commit/b9b2c053ea4df03f5fe3ef82287785dfe444c1df))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/pg-diff-sync requirement ([7db8651](https://github.com/wmfs/pg-model/commit/7db86513be68efdf3529ac7d5e39c5012b3457fd))
+* **deps-dev:** update cz-conventional-changelog requirement ([d0ee3ad](https://github.com/wmfs/pg-model/commit/d0ee3adf5dbb4af22f8f9ae3ad4e301cb766379b))
+* **deps-dev:** update mocha requirement from 6.1.4 to 6.2.0 ([f4300e0](https://github.com/wmfs/pg-model/commit/f4300e0d1240dd61fb7c4c5416e5d734a4364537))
+* **deps-dev:** update semantic-release requirement ([5db4f9c](https://github.com/wmfs/pg-model/commit/5db4f9c25481674384097d1aae10bb933eeac36e))
+
 # [1.17.0](https://github.com/wmfs/pg-model/compare/v1.16.0...v1.17.0) (2019-09-09)
 
 
