@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/wmfs/pg-model/compare/v1.18.0...v1.19.0) (2020-01-07)
+
+
+### 🛠 Builds
+
+* **deps:** bump dottie from 2.0.1 to 2.0.2 ([c91ba35](https://github.com/wmfs/pg-model/commit/c91ba35877293b2010e8521ac7238def127b6078))
+
 # [1.18.0](https://github.com/wmfs/pg-model/compare/v1.17.0...v1.18.0) (2020-01-07)
 
 
