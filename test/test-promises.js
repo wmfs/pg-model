@@ -122,13 +122,13 @@ describe('Promise API', function () {
           )
         } catch (err) {
           expect(err).to.containSubset({
-            'code': '23505',
-            'constraint': 'person_pkey',
-            'detail': 'Key (employee_no)=(1) already exists.',
-            'name': 'error',
-            'schema': 'pgmodel_test',
-            'severity': 'ERROR',
-            'table': 'person'
+            code: '23505',
+            constraint: 'person_pkey',
+            detail: 'Key (employee_no)=(1) already exists.',
+            name: 'error',
+            schema: 'pgmodel_test',
+            severity: 'ERROR',
+            table: 'person'
           })
           return
         }
@@ -157,13 +157,13 @@ describe('Promise API', function () {
           )
         } catch (err) {
           expect(err).to.containSubset({
-            'code': '23505',
-            'constraint': 'person_pkey',
-            'detail': 'Key (employee_no)=(2) already exists.',
-            'name': 'error',
-            'schema': 'pgmodel_test',
-            'severity': 'ERROR',
-            'table': 'person'
+            code: '23505',
+            constraint: 'person_pkey',
+            detail: 'Key (employee_no)=(2) already exists.',
+            name: 'error',
+            schema: 'pgmodel_test',
+            severity: 'ERROR',
+            table: 'person'
           })
           return
         } // catch
@@ -182,8 +182,8 @@ describe('Promise API', function () {
           )
         } catch (err) {
           expect(err).to.containSubset({
-            'schema': 'pgmodel_test',
-            'view': 'peeps'
+            schema: 'pgmodel_test',
+            view: 'peeps'
           })
           return
         }
@@ -199,10 +199,10 @@ describe('Promise API', function () {
           .then(doc =>
             expect(doc).to.containSubset(
               {
-                'employeeNo': '3',
-                'firstName': 'Lisa',
-                'lastName': 'Simpson',
-                'age': 8
+                employeeNo: '3',
+                firstName: 'Lisa',
+                lastName: 'Simpson',
+                age: 8
               }
             )
           )
@@ -213,8 +213,8 @@ describe('Promise API', function () {
           await models.pgmodelTest.peeps.findById(3)
         } catch (err) {
           expect(err).to.containSubset({
-            'schema': 'pgmodel_test',
-            'view': 'peeps'
+            schema: 'pgmodel_test',
+            view: 'peeps'
           })
           return
         }
@@ -247,34 +247,34 @@ describe('Promise API', function () {
         expect(doc).to.containSubset(
           [
             {
-              'age': 8,
-              'employeeNo': '3',
-              'firstName': 'Lisa',
-              'lastName': 'Simpson'
+              age: 8,
+              employeeNo: '3',
+              firstName: 'Lisa',
+              lastName: 'Simpson'
             },
             {
-              'age': 10,
-              'employeeNo': '5',
-              'firstName': 'Bart',
-              'lastName': 'Simpson'
+              age: 10,
+              employeeNo: '5',
+              firstName: 'Bart',
+              lastName: 'Simpson'
             },
             {
-              'age': 36,
-              'employeeNo': '4',
-              'firstName': 'Marge',
-              'lastName': 'Simpson'
+              age: 36,
+              employeeNo: '4',
+              firstName: 'Marge',
+              lastName: 'Simpson'
             },
             {
-              'age': 39,
-              'employeeNo': '1',
-              'firstName': 'Homer',
-              'lastName': 'Simpson'
+              age: 39,
+              employeeNo: '1',
+              firstName: 'Homer',
+              lastName: 'Simpson'
             },
             {
-              'age': null,
-              'employeeNo': '2',
-              'firstName': 'Maggie',
-              'lastName': 'Simpson'
+              age: null,
+              employeeNo: '2',
+              firstName: 'Maggie',
+              lastName: 'Simpson'
             }
           ]
         )
@@ -312,10 +312,10 @@ describe('Promise API', function () {
         expect(doc).to.containSubset(
           [
             {
-              'age': 10,
-              'employeeNo': '5',
-              'firstName': 'Bart',
-              'lastName': 'Simpson'
+              age: 10,
+              employeeNo: '5',
+              firstName: 'Bart',
+              lastName: 'Simpson'
             }
           ]
         )
@@ -334,8 +334,8 @@ describe('Promise API', function () {
 
         expect(doc).to.have.length(1)
         expect(doc[0]).to.deep.equal({
-          'firstName': 'Bart',
-          'lastName': 'Simpson'
+          firstName: 'Bart',
+          lastName: 'Simpson'
         })
       })
 
@@ -352,16 +352,16 @@ describe('Promise API', function () {
         expect(doc).to.containSubset(
           [
             {
-              'age': 10,
-              'employeeNo': '5',
-              'firstName': 'Bart',
-              'lastName': 'Simpson'
+              age: 10,
+              employeeNo: '5',
+              firstName: 'Bart',
+              lastName: 'Simpson'
             },
             {
-              'age': 8,
-              'employeeNo': '3',
-              'firstName': 'Lisa',
-              'lastName': 'Simpson'
+              age: 8,
+              employeeNo: '3',
+              firstName: 'Lisa',
+              lastName: 'Simpson'
             }
           ]
         )
@@ -380,8 +380,8 @@ describe('Promise API', function () {
         expect(doc).to.containSubset(
           [
             {
-              'employeeNo': '5',
-              'name': 'Bart Simpson'
+              employeeNo: '5',
+              name: 'Bart Simpson'
             }
           ]
         )
@@ -403,16 +403,16 @@ describe('Promise API', function () {
         expect(doc).to.containSubset(
           [
             {
-              'age': 10,
-              'employeeNo': '5',
-              'firstName': 'Bart',
-              'lastName': 'Simpson'
+              age: 10,
+              employeeNo: '5',
+              firstName: 'Bart',
+              lastName: 'Simpson'
             },
             {
-              'age': 8,
-              'employeeNo': '3',
-              'firstName': 'Lisa',
-              'lastName': 'Simpson'
+              age: 8,
+              employeeNo: '3',
+              firstName: 'Lisa',
+              lastName: 'Simpson'
             }
           ]
         )
@@ -423,12 +423,12 @@ describe('Promise API', function () {
 
         expect(doc).to.have.length(5)
         expect(doc[0]).to.eql({
-          'employeeNo': '1',
-          'name': 'Homer Simpson'
+          employeeNo: '1',
+          name: 'Homer Simpson'
         })
         expect(doc[4]).to.eql({
-          'employeeNo': '5',
-          'name': 'Bart Simpson'
+          employeeNo: '5',
+          name: 'Bart Simpson'
         })
       })
     })
@@ -445,10 +445,10 @@ describe('Promise API', function () {
 
         expect(doc).to.containSubset(
           {
-            'age': 10,
-            'employeeNo': '5',
-            'firstName': 'Bart',
-            'lastName': 'Simpson'
+            age: 10,
+            employeeNo: '5',
+            firstName: 'Bart',
+            lastName: 'Simpson'
           }
         )
       })
@@ -464,10 +464,10 @@ describe('Promise API', function () {
         ).then(doc =>
           expect(doc).to.containSubset(
             {
-              'age': 39,
-              'employeeNo': '1',
-              'firstName': 'Homer',
-              'lastName': 'Simpson'
+              age: 39,
+              employeeNo: '1',
+              firstName: 'Homer',
+              lastName: 'Simpson'
             }
           )
         )
@@ -482,8 +482,8 @@ describe('Promise API', function () {
           }
         )
         expect(doc).to.containSubset({
-          'employeeNo': '1',
-          'name': 'Homer Simpson'
+          employeeNo: '1',
+          name: 'Homer Simpson'
         })
       })
 
@@ -531,10 +531,10 @@ describe('Promise API', function () {
           .then(doc =>
             expect(doc).to.containSubset(
               {
-                'employeeNo': '2',
-                'firstName': 'Maggie',
-                'lastName': 'Simpson',
-                'age': 1
+                employeeNo: '2',
+                firstName: 'Maggie',
+                lastName: 'Simpson',
+                age: 1
               }
             )
           )
@@ -555,10 +555,10 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.person.findById(2)
 
         expect(doc).to.containSubset({
-          'employeeNo': '2',
-          'firstName': 'Maggie',
-          'lastName': 'Simpson',
-          'age': null
+          employeeNo: '2',
+          firstName: 'Maggie',
+          lastName: 'Simpson',
+          age: null
         })
       })
 
@@ -576,10 +576,10 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.person.findById(2)
 
         expect(doc).to.containSubset({
-          'employeeNo': '2',
-          'firstName': 'Margaret',
-          'lastName': 'Simpson',
-          'age': null
+          employeeNo: '2',
+          firstName: 'Margaret',
+          lastName: 'Simpson',
+          age: null
         })
       })
 
@@ -593,8 +593,8 @@ describe('Promise API', function () {
           )
         } catch (err) {
           expect(err).to.containSubset({
-            'schema': 'pgmodel_test',
-            'view': 'peeps'
+            schema: 'pgmodel_test',
+            view: 'peeps'
           })
           return
         }
@@ -620,8 +620,8 @@ describe('Promise API', function () {
           await models.pgmodelTest.peeps.destroyById(3)
         } catch (err) {
           expect(err).to.containSubset({
-            'schema': 'pgmodel_test',
-            'view': 'peeps'
+            schema: 'pgmodel_test',
+            view: 'peeps'
           })
           return
         }
@@ -652,10 +652,10 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.person.findById(10)
 
         expect(doc).to.containSubset({
-          'employeeNo': '10',
-          'firstName': 'Abe',
-          'lastName': 'Simpson',
-          'age': 82
+          employeeNo: '10',
+          firstName: 'Abe',
+          lastName: 'Simpson',
+          age: 82
         })
       })
 
@@ -675,10 +675,10 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.person.findById(10)
 
         expect(doc).to.containSubset({
-          'employeeNo': '10',
-          'firstName': 'Abraham',
-          'lastName': 'Simpson',
-          'age': 83
+          employeeNo: '10',
+          firstName: 'Abraham',
+          lastName: 'Simpson',
+          age: 83
         })
       })
 
@@ -699,10 +699,10 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.person.findById(10)
 
         expect(doc).to.containSubset({
-          'employeeNo': '10',
-          'firstName': 'Abe',
-          'lastName': 'Simpson',
-          'age': 83
+          employeeNo: '10',
+          firstName: 'Abe',
+          lastName: 'Simpson',
+          age: 83
         })
       })
 
@@ -721,10 +721,10 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.person.findById(10)
 
         expect(doc).to.containSubset({
-          'employeeNo': '10',
-          'firstName': 'Abraham',
-          'lastName': 'Simpson',
-          'age': null
+          employeeNo: '10',
+          firstName: 'Abraham',
+          lastName: 'Simpson',
+          age: null
         })
       })
 
@@ -738,8 +738,8 @@ describe('Promise API', function () {
           )
         } catch (err) {
           expect(err).to.containSubset({
-            'schema': 'pgmodel_test',
-            'view': 'peeps'
+            schema: 'pgmodel_test',
+            view: 'peeps'
           })
           return
         }
@@ -802,35 +802,35 @@ describe('Promise API', function () {
 
         expect(doc).to.containSubset(
           {
-            'name': 'mars',
-            'title': 'Mars',
-            'type': 'Terrestrial',
-            'diameter': '6700',
-            'color': 'red',
-            'url': 'http://en.wikipedia.org/wiki/Mars',
-            'otherFacts': {
-              'radius': 3390,
-              'surfacePressure': '0.636 (0.4–0.87) kPa; 0.00628 atm',
-              'equatorialRotationVelocity': '868.22 km/h (241.17 m/s)'
+            name: 'mars',
+            title: 'Mars',
+            type: 'Terrestrial',
+            diameter: '6700',
+            color: 'red',
+            url: 'http://en.wikipedia.org/wiki/Mars',
+            otherFacts: {
+              radius: 3390,
+              surfacePressure: '0.636 (0.4–0.87) kPa; 0.00628 atm',
+              equatorialRotationVelocity: '868.22 km/h (241.17 m/s)'
             },
-            'moons': [
+            moons: [
               {
-                'title': 'Phobos',
-                'discoveredBy': 'Asaph Hall',
-                'discoveryYear': 1800,
-                'planetsName': 'mars',
-                'craters': [
+                title: 'Phobos',
+                discoveredBy: 'Asaph Hall',
+                discoveryYear: 1800,
+                planetsName: 'mars',
+                craters: [
                   {
-                    'title': 'Stickney',
-                    'diameter': 9
+                    title: 'Stickney',
+                    diameter: 9
                   }
                 ]
               },
               {
-                'title': 'Deimos',
-                'discoveredBy': 'Asaph Hall',
-                'discoveryYear': 1800,
-                'planetsName': 'mars'
+                title: 'Deimos',
+                discoveredBy: 'Asaph Hall',
+                discoveryYear: 1800,
+                planetsName: 'mars'
               }
             ]
           }
@@ -839,29 +839,29 @@ describe('Promise API', function () {
         const moons = {}
         moons[doc.moons[0].title] = doc.moons[0]
         moons[doc.moons[1].title] = doc.moons[1]
-        phobosId = moons['Phobos'].id
-        stickneyId = moons['Phobos'].craters[0].id
+        phobosId = moons.Phobos.id
+        stickneyId = moons.Phobos.craters[0].id
       })
 
       it('find Phobos and its Stickney crater', async () => {
         const doc = await models.pgmodelTest.moons.findOne(
           {
             where: {
-              title: { 'equals': 'Phobos' }
+              title: { equals: 'Phobos' }
             }
           }
         )
 
         expect(doc).to.containSubset(
           {
-            'title': 'Phobos',
-            'discoveredBy': 'Asaph Hall',
-            'discoveryYear': 1800,
-            'planetsName': 'mars',
-            'craters': [
+            title: 'Phobos',
+            discoveredBy: 'Asaph Hall',
+            discoveryYear: 1800,
+            planetsName: 'mars',
+            craters: [
               {
-                'title': 'Stickney',
-                'diameter': 9
+                title: 'Stickney',
+                diameter: 9
               }
             ]
           }
@@ -872,18 +872,18 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.moons.findOne(
           {
             where: {
-              title: { 'equals': 'Deimos' }
+              title: { equals: 'Deimos' }
             }
           }
         )
 
         expect(doc).to.containSubset(
           {
-            'title': 'Deimos',
-            'discoveredBy': 'Asaph Hall',
-            'discoveryYear': 1800,
-            'planetsName': 'mars',
-            'craters': []
+            title: 'Deimos',
+            discoveredBy: 'Asaph Hall',
+            discoveryYear: 1800,
+            planetsName: 'mars',
+            craters: []
           }
         )
       })
@@ -899,11 +899,11 @@ describe('Promise API', function () {
             diameter: 6779,
             color: 'red',
             url: 'http://en.wikipedia.org/wiki/Mars',
-            'otherFacts': {
-              'radius': 3390,
-              'surfacePressure': '0.636 (0.4–0.87) kPa; 0.00628 atm',
-              'equatorialRotationVelocity': '868.22 km/h (241.17 m/s)',
-              'lengthOfDay': '1d 0h 40m'
+            otherFacts: {
+              radius: 3390,
+              surfacePressure: '0.636 (0.4–0.87) kPa; 0.00628 atm',
+              equatorialRotationVelocity: '868.22 km/h (241.17 m/s)',
+              lengthOfDay: '1d 0h 40m'
             },
             moons: [
               {
@@ -931,30 +931,30 @@ describe('Promise API', function () {
         expect(doc.moons).to.have.length(1)
         expect(doc).to.containSubset(
           {
-            'name': 'mars',
-            'title': 'Mars',
-            'type': 'Terrestrial',
-            'diameter': '6779',
-            'color': 'red',
-            'url': 'http://en.wikipedia.org/wiki/Mars',
-            'otherFacts': {
-              'radius': 3390,
-              'surfacePressure': '0.636 (0.4–0.87) kPa; 0.00628 atm',
-              'equatorialRotationVelocity': '868.22 km/h (241.17 m/s)',
-              'lengthOfDay': '1d 0h 40m'
+            name: 'mars',
+            title: 'Mars',
+            type: 'Terrestrial',
+            diameter: '6779',
+            color: 'red',
+            url: 'http://en.wikipedia.org/wiki/Mars',
+            otherFacts: {
+              radius: 3390,
+              surfacePressure: '0.636 (0.4–0.87) kPa; 0.00628 atm',
+              equatorialRotationVelocity: '868.22 km/h (241.17 m/s)',
+              lengthOfDay: '1d 0h 40m'
             },
-            'moons': [
+            moons: [
               {
                 id: phobosId,
-                'title': 'Phobos',
-                'discoveredBy': 'Asaph Hall',
-                'discoveryYear': 1875,
-                'planetsName': 'mars',
-                'craters': [
+                title: 'Phobos',
+                discoveredBy: 'Asaph Hall',
+                discoveryYear: 1875,
+                planetsName: 'mars',
+                craters: [
                   {
                     id: stickneyId,
-                    'title': 'Stickney',
-                    'diameter': 10
+                    title: 'Stickney',
+                    diameter: 10
                   }
                 ]
               }
@@ -967,10 +967,10 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.craters.findById(stickneyId)
 
         expect(doc).to.containSubset({
-          'diameter': 10,
-          'id': stickneyId,
-          'moonsId': phobosId,
-          'title': 'Stickney'
+          diameter: 10,
+          id: stickneyId,
+          moonsId: phobosId,
+          title: 'Stickney'
         })
       })
     })
@@ -984,7 +984,7 @@ describe('Promise API', function () {
         const doc = await models.pgmodelTest.moons.findOne({
           filter: {
             where: {
-              title: { 'equals': 'Phobos' }
+              title: { equals: 'Phobos' }
             }
           }
         })
