@@ -1,3 +1,23 @@
+# [1.20.0](https://github.com/wmfs/pg-model/compare/v1.19.0...v1.20.0) (2020-01-27)
+
+
+### 🛠 Builds
+
+* **deps:** bump async from 2.6.3 to 3.1.1 ([34c7bb2](https://github.com/wmfs/pg-model/commit/34c7bb2f09a15f4e2836a56a3cf1a3a5bc0d1419))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/pg-diff-sync from 1.15.0 to 1.16.0 ([890282a](https://github.com/wmfs/pg-model/commit/890282ad16a61f9a364289cbdae247f067b47a2d))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/pg-diff-sync from 1.16.0 to 1.17.0 ([2201f59](https://github.com/wmfs/pg-model/commit/2201f598e1d58856a67e718a735454e6465403f1))
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.2 ([090d465](https://github.com/wmfs/pg-model/commit/090d465369450780bf72c53191dc502e39a73064))
+* **deps-dev:** bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([14536bf](https://github.com/wmfs/pg-model/commit/14536bfcf8a5377add5bf3ccf4768a39226d47ca))
+* **deps-dev:** bump mocha from 7.0.0 to 7.0.1 ([fcddb4d](https://github.com/wmfs/pg-model/commit/fcddb4d66bb4c27274d03b0256f7be3d93d0b85e))
+* **deps-dev:** update standard requirement from 12.0.1 to 14.3.1 ([e040f86](https://github.com/wmfs/pg-model/commit/e040f86e09fe2abc87f61fec48749fa2cd6cac6c))
+
+
+### 💎 Styles
+
+* Do not access Object.prototype method 'hasOwnProperty' from target object ([10ceee9](https://github.com/wmfs/pg-model/commit/10ceee9ce2057ff6829828cb29353b20faf3bb29))
+* standard --fix ([9972fcf](https://github.com/wmfs/pg-model/commit/9972fcf6f55a464c6d4906601fc01001985e2203))
+* typo ([80a538b](https://github.com/wmfs/pg-model/commit/80a538b7c8190a55a3cc152915f35a18ba927381))
+
 # [1.19.0](https://github.com/wmfs/pg-model/compare/v1.18.0...v1.19.0) (2020-01-07)
 
 
