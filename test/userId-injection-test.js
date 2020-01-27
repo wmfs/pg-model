@@ -87,10 +87,10 @@ describe('UserId injection test', function () {
       const doc = await models.pgmodelTest.person.findById(2)
       expect(doc).to.containSubset(
         {
-          'employeeNo': '2',
-          'firstName': 'Maggie',
-          'lastName': 'Simpson',
-          'createdBy': 'creator'
+          employeeNo: '2',
+          firstName: 'Maggie',
+          lastName: 'Simpson',
+          createdBy: 'creator'
         }
       )
     })
@@ -114,12 +114,12 @@ describe('UserId injection test', function () {
       const doc = await models.pgmodelTest.person.findById(2)
       expect(doc).to.containSubset(
         {
-          'employeeNo': '2',
-          'firstName': 'Maggie',
-          'lastName': 'Simpson',
-          'age': 1,
-          'createdBy': 'creator',
-          'modifiedBy': 'modifier'
+          employeeNo: '2',
+          firstName: 'Maggie',
+          lastName: 'Simpson',
+          age: 1,
+          createdBy: 'creator',
+          modifiedBy: 'modifier'
         }
       )
     })
@@ -140,12 +140,12 @@ describe('UserId injection test', function () {
       const doc = await models.pgmodelTest.person.findById(2)
 
       expect(doc).to.containSubset({
-        'employeeNo': '2',
-        'firstName': 'Maggie',
-        'lastName': 'Simpson',
-        'age': null,
-        'createdBy': 'creator',
-        'modifiedBy': 'second-modifier'
+        employeeNo: '2',
+        firstName: 'Maggie',
+        lastName: 'Simpson',
+        age: null,
+        createdBy: 'creator',
+        modifiedBy: 'second-modifier'
       })
     })
 
@@ -164,12 +164,12 @@ describe('UserId injection test', function () {
       const doc = await models.pgmodelTest.person.findById(2)
 
       expect(doc).to.containSubset({
-        'employeeNo': '2',
-        'firstName': 'Margaret',
-        'lastName': 'Simpson',
-        'age': null,
-        'createdBy': 'creator',
-        'modifiedBy': 'patcher'
+        employeeNo: '2',
+        firstName: 'Margaret',
+        lastName: 'Simpson',
+        age: null,
+        createdBy: 'creator',
+        modifiedBy: 'patcher'
       })
     })
   })
@@ -196,12 +196,12 @@ describe('UserId injection test', function () {
       const doc = await models.pgmodelTest.person.findById(10)
 
       expect(doc).to.containSubset({
-        'employeeNo': '10',
-        'firstName': 'Abe',
-        'lastName': 'Simpson',
-        'age': 82,
-        'createdBy': 'upserter',
-        'modifiedBy': null
+        employeeNo: '10',
+        firstName: 'Abe',
+        lastName: 'Simpson',
+        age: 82,
+        createdBy: 'upserter',
+        modifiedBy: null
       })
     })
 
@@ -222,12 +222,12 @@ describe('UserId injection test', function () {
       const doc = await models.pgmodelTest.person.findById(10)
 
       expect(doc).to.containSubset({
-        'employeeNo': '10',
-        'firstName': 'Abraham',
-        'lastName': 'Simpson',
-        'age': 83,
-        'createdBy': 'upserter',
-        'modifiedBy': 'second-upserter'
+        employeeNo: '10',
+        firstName: 'Abraham',
+        lastName: 'Simpson',
+        age: 83,
+        createdBy: 'upserter',
+        modifiedBy: 'second-upserter'
       })
     })
   })
