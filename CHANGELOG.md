@@ -1,3 +1,18 @@
+# [1.21.0](https://github.com/wmfs/pg-model/compare/v1.20.0...v1.21.0) (2020-02-26)
+
+
+### 🛠 Builds
+
+* **deps:** bump async from 3.1.1 to 3.2.0 ([c495e0f](https://github.com/wmfs/pg-model/commit/c495e0f9629340384e1a015b2ff42a0022934072))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.6 to 5.0.0 ([2b5f0dc](https://github.com/wmfs/pg-model/commit/2b5f0dc8e398f4eb1b3bbd361e276063f2ea5c9f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.14.0 to 1.15.0 ([34b41ea](https://github.com/wmfs/pg-model/commit/34b41ea5e4904ff74454ca0cefca2965ad06b1cc))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.15.0 to 1.16.0 ([1e7849e](https://github.com/wmfs/pg-model/commit/1e7849ebcf369b1d9a5dec2b1c3bffb38573b06d))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.16.0 to 1.17.0 ([b16c723](https://github.com/wmfs/pg-model/commit/b16c72363d63495f999e1c6382629fd669076e0b))
+* **deps-dev:** bump codecov from 3.6.2 to 3.6.3 ([da517a9](https://github.com/wmfs/pg-model/commit/da517a92cd79cff8b92d455df3c581393850081f))
+* **deps-dev:** bump codecov from 3.6.3 to 3.6.4 ([de29e1b](https://github.com/wmfs/pg-model/commit/de29e1bdfd10b70831ed783ea9e5cd58fc36d26d))
+* **deps-dev:** bump codecov from 3.6.4 to 3.6.5 ([362f86b](https://github.com/wmfs/pg-model/commit/362f86b7cd04cd514d54e50dd9c88551d2dbc1ab))
+* **deps-dev:** bump cz-conventional-changelog from 3.0.2 to 3.1.0 ([5358e36](https://github.com/wmfs/pg-model/commit/5358e369a85b753b698a4a3aa383e00ef2b0b5dc))
+
 # [1.20.0](https://github.com/wmfs/pg-model/compare/v1.19.0...v1.20.0) (2020-01-27)
 
 
