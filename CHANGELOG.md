@@ -1,3 +1,31 @@
+# [1.22.0](https://github.com/wmfs/pg-model/compare/v1.21.0...v1.22.0) (2020-04-22)
+
+
+### 🛠 Builds
+
+* **deps:** Removed unused boom and debug dependencies ([dbc2a49](https://github.com/wmfs/pg-model/commit/dbc2a4976d749ce3c19056f82f7bc27ff94ea1ac))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 5.0.0 to 5.0.1 ([b0eeb5f](https://github.com/wmfs/pg-model/commit/b0eeb5fe55663958b6d9a7b6f202a70f09f5fff0))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([5a4833f](https://github.com/wmfs/pg-model/commit/5a4833fe53269c443007c1e7b73435a278fb438b))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.17.0 to 1.18.0 ([f6ec0c3](https://github.com/wmfs/pg-model/commit/f6ec0c37998e4ef504e2f84c7ecead3115acddc3))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.18.0 to 1.19.0 ([f05f5ba](https://github.com/wmfs/pg-model/commit/f05f5bae90b9ce632beb5d4f5468e5ac36b3b693))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.19.0 to 1.20.0 ([bbc9343](https://github.com/wmfs/pg-model/commit/bbc93431b962d92cd490f65582a6b39860eb0e6d))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/pg-diff-sync from 1.17.0 to 1.18.0 ([5736717](https://github.com/wmfs/pg-model/commit/57367170ebdc67cf63df5308f34b2306fbb39b08))
+* **deps-dev:** bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([dd95f92](https://github.com/wmfs/pg-model/commit/dd95f92ea7732b146094bfc117201331f9e25e7a))
+* **deps-dev:** bump mocha from 7.0.1 to 7.1.0 ([158449c](https://github.com/wmfs/pg-model/commit/158449c280a4eb42ac72e38ff65646560d2f0d38))
+* **deps-dev:** bump mocha from 7.1.0 to 7.1.1 ([baf87cb](https://github.com/wmfs/pg-model/commit/baf87cbf3bd6fc08bd8564d785d38e1727e6c0a6))
+* **deps-dev:** bump nyc from 15.0.0 to 15.0.1 ([e5f10c5](https://github.com/wmfs/pg-model/commit/e5f10c50f5f027949a22f686a27c67588eb42a65))
+* **deps-dev:** bump semantic-release from 15.14.0 to 17.0.4 ([958de57](https://github.com/wmfs/pg-model/commit/958de5741de3bbe9085fcc635146ab775f1aa47b))
+* **deps-dev:** bump semantic-release from 17.0.4 to 17.0.5 ([244e6e8](https://github.com/wmfs/pg-model/commit/244e6e8e70495d34cc4bc35f5476cc70d1f96d28))
+* **deps-dev:** bump semantic-release from 17.0.5 to 17.0.6 ([55fde78](https://github.com/wmfs/pg-model/commit/55fde78b543b9bb93ffc8acc7ca3d8090f6b8c1b))
+* **deps-dev:** bump semantic-release from 17.0.6 to 17.0.7 ([08adfb5](https://github.com/wmfs/pg-model/commit/08adfb5e2341a1755be678ff26ac1c3840d12edc))
+* **deps-dev:** bump standard from 14.3.1 to 14.3.2 ([ddbe73e](https://github.com/wmfs/pg-model/commit/ddbe73e95de2e19abdaabdd7e3d5a843b1b2dee1))
+* **deps-dev:** bump standard from 14.3.2 to 14.3.3 ([bbe4276](https://github.com/wmfs/pg-model/commit/bbe42765921cd47c55fe5c52840ed99fb18b1f28))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([870fbbb](https://github.com/wmfs/pg-model/commit/870fbbb2976a3ac942ef8e37d90610fc903b8585))
+
 # [1.21.0](https://github.com/wmfs/pg-model/compare/v1.20.0...v1.21.0) (2020-02-26)
 
 
