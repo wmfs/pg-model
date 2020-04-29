@@ -39,7 +39,9 @@ describe('Promise API', function () {
 
     it('initially drop-cascade the pg_model_test schema, if one exists', async () => {
       for (const filename of ['uninstall.sql', 'install.sql']) {
-        await client.runFile(path.resolve(__dirname, path.join('fixtures', 'scripts', filename)))
+        await client.runFile(
+          path.resolve(__dirname, path.join('fixtures', 'scripts', filename))
+        )
       }
     })
 

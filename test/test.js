@@ -8,7 +8,6 @@ const HlPgClient = require('@wmfs/hl-pg-client')
 const empty = require('./fixtures/empty.json')
 const planets = require('./fixtures/people-and-planets.json')
 const pgDiffSync = require('@wmfs/pg-diff-sync')
-const async = require('async')
 const path = require('path')
 const chai = require('chai')
 const chaiSubset = require('chai-subset')
@@ -34,33 +33,19 @@ describe('Callback API', function () {
       client = new HlPgClient(process.env.PG_CONNECTION_STRING)
     })
 
-    it('initially drop-cascade the pg_model_test schema, if one exists', async () => {
-      for (const filename of ['uninstall.sql', 'install.sql']) { await client.runFile(path.resolve(__dirname, path.join('fixtures', 'scripts', filename))) }
+    it('drop-cascade the pg_model_test schema, if one exists', async () => {
+      for (const filename of ['uninstall.sql', 'install.sql']) {
+        await client.runFile(
+          path.resolve(__dirname, path.join('fixtures', 'scripts', filename))
+        )
+      }
     })
-    it('install test database objects', function (done) {
-      async.eachSeries(
-        pgDiffSync(
-          empty,
-          planets
-        ),
-        function (statement, cb) {
-          client.query(
-            statement,
-            function (e) {
-              if (e) {
-                console.error(statement)
-                cb(e)
-              } else {
-                cb()
-              }
-            }
-          )
-        },
-        function (err) {
-          expect(err).to.equal(null)
-          done()
-        }
-      )
+
+    it('install test database objects', async () => {
+      const statements = pgDiffSync(empty, planets)
+      for (const s of statements) {
+        await client.query(s)
+      }
     })
 
     it('get some model instances', function () {
