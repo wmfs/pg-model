@@ -1,3 +1,34 @@
+## [1.22.1](https://github.com/wmfs/pg-model/compare/v1.22.0...v1.22.1) (2020-04-30)
+
+
+### 🐛 Bug Fixes
+
+* check rows has elements before attempting to access entries ([00858c1](https://github.com/wmfs/pg-model/commit/00858c12aa1670e0111dfc81d1a44e7cd05560a9))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/pg-diff-sync from 1.18.0 to 1.19.0 ([2f84cfb](https://github.com/wmfs/pg-model/commit/2f84cfb9c5b7d201ae0199670453089b131bf42b))
+* **deps-dev:** bump mocha from 7.1.1 to 7.1.2 ([ae69a57](https://github.com/wmfs/pg-model/commit/ae69a5743f9fe87b30e6e0fa54c6a5fe69977442))
+
+
+### 📦 Code Refactoring
+
+* **Creator:** Prefer builtins to lodash methods ([88e16ec](https://github.com/wmfs/pg-model/commit/88e16ecddd6aa79d38e2ec94ca3104b7aef05977))
+* **Destroyer:** Use Array.map in preference to a for loop ([0f7635a](https://github.com/wmfs/pg-model/commit/0f7635a60681672b7d705013c4b240e9abb4b384))
+* **Finder:** Added findOne and findAll to Finder, simplify model ([89262e8](https://github.com/wmfs/pg-model/commit/89262e80ac043a889cda6e6d13b84069d05daa50))
+* **Finder:** Eliminate use of async package. Move to async/await ([a0be44a](https://github.com/wmfs/pg-model/commit/a0be44a7721de1dfd253af58bc8025f5992c81e5))
+* **Finder:** Replaced lodash methods with builtins. ([d12ce1c](https://github.com/wmfs/pg-model/commit/d12ce1cc6338382dcf1eb8c9f20750d26132be63))
+* **Model:** Switch implementation from callback first to promise first. ([feb1304](https://github.com/wmfs/pg-model/commit/feb1304dd3f1614c6cd3515b2e51b8775e770ae6))
+* **pre-statement-hook:** Prefer builtins to lodash methods ([3b9244f](https://github.com/wmfs/pg-model/commit/3b9244ff338101929bf6e77bc8ee5ae412a3325d))
+* **tests:** Remove use of 'async' package ([6a8dc49](https://github.com/wmfs/pg-model/commit/6a8dc49320744d3b84e86e3f460b53fc30b9db8c))
+* **Updater:** Prefer builtins to lodash methods. Split out named functions to clarify flow. ([3cf1b8b](https://github.com/wmfs/pg-model/commit/3cf1b8b6d4304234412ed10d83a55095f3d30276))
+
+
+### 💎 Styles
+
+* **Updater:** Lint fixes ([35cf1bc](https://github.com/wmfs/pg-model/commit/35cf1bc8b124e91914ea8cc5b18a7f4b165eac3f))
+
 # [1.22.0](https://github.com/wmfs/pg-model/compare/v1.21.0...v1.22.0) (2020-04-22)
 
 
