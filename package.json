@@ -22,7 +22,7 @@
   "dependencies": {
     "async": "3.2.0",
     "dottie": "2.0.2",
-    "lodash": "4.17.15"
+    "lodash": "4.17.18"
   },
   "devDependencies": {
     "chai": "4.2.0",
