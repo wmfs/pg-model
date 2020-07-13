@@ -1,3 +1,26 @@
+# [1.23.0](https://github.com/wmfs/pg-model/compare/v1.22.1...v1.23.0) (2020-07-13)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.15 to 4.17.19 ([859d8c8](https://github.com/wmfs/pg-model/commit/859d8c838f1764526a231bd91e03ea6d4bb4e900))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.20.0 to 1.21.0 ([2abd46d](https://github.com/wmfs/pg-model/commit/2abd46dac2b1f915e383f86f0226b04c406f753f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/pg-diff-sync from 1.19.0 to 1.19.1 ([007c30c](https://github.com/wmfs/pg-model/commit/007c30c054f8291194344c2df5f7fd35a7fe585b))
+* **deps-dev:** bump codecov from 3.6.5 to 3.7.0 ([15d8136](https://github.com/wmfs/pg-model/commit/15d8136f4b0e01728b34f0304af165d0f0ba87c4))
+* **deps-dev:** bump cz-conventional-changelog from 3.1.0 to 3.2.0 ([6e687a4](https://github.com/wmfs/pg-model/commit/6e687a4c19a2e78d60c25c82ac1f2c31fd8099d6))
+* **deps-dev:** bump mocha from 7.1.2 to 7.2.0 ([c814d87](https://github.com/wmfs/pg-model/commit/c814d875a2b3749164bcde1d5e7063463aebeaae))
+* **deps-dev:** bump mocha from 7.2.0 to 8.0.1 ([c98eeff](https://github.com/wmfs/pg-model/commit/c98eeff2d8f2e61e3b29b4f0d228020a5d42a8df))
+* **deps-dev:** bump nyc from 15.0.1 to 15.1.0 ([1a81a48](https://github.com/wmfs/pg-model/commit/1a81a48983ccf46886aec8c5055c6aed535445ba))
+* **deps-dev:** bump semantic-release from 17.0.7 to 17.0.8 ([2cfe7f1](https://github.com/wmfs/pg-model/commit/2cfe7f1ebedc4f3d0048f3e5e15b36b4f4bef070))
+* **deps-dev:** bump semantic-release from 17.0.8 to 17.1.0 ([ca25867](https://github.com/wmfs/pg-model/commit/ca258673275556a7629741a7a8ffc41776636447))
+* **deps-dev:** bump semantic-release from 17.1.0 to 17.1.1 ([9e5f4e7](https://github.com/wmfs/pg-model/commit/9e5f4e78fec0a205882ebc25bb7832f2b3bd4c74))
+* **deps-dev:** bump standard from 14.3.3 to 14.3.4 ([61eeb95](https://github.com/wmfs/pg-model/commit/61eeb95fe10a4d7dc411115b72010ef493e48fe8))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** use updated circle node image [skip ci] ([9472976](https://github.com/wmfs/pg-model/commit/94729765ec2bf32bb5138c6f0c7277be2432f38a))
+
 ## [1.22.1](https://github.com/wmfs/pg-model/compare/v1.22.0...v1.22.1) (2020-04-30)
 
 
