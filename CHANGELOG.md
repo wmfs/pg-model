@@ -1,3 +1,22 @@
+# [1.24.0](https://github.com/wmfs/pg-model/compare/v1.23.0...v1.24.0) (2020-08-17)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.19 to 4.17.20 ([a7a163a](https://github.com/wmfs/pg-model/commit/a7a163a6e1071a08b32f0f7fef69aec91f347a03))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.21.0 to 1.22.0 ([c46ac24](https://github.com/wmfs/pg-model/commit/c46ac24d93c55e4eb1e1dbc23b61e367f50eeedf))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/pg-diff-sync from 1.19.1 to 1.20.0 ([4a6ffb0](https://github.com/wmfs/pg-model/commit/4a6ffb0524f6b75538e5ff53fb0561fd76fd311e))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/pg-diff-sync from 1.20.0 to 1.21.0 ([383cf54](https://github.com/wmfs/pg-model/commit/383cf54401e182c5d20c70cd1f5393c4303c9816))
+* **deps-dev:** bump codecov from 3.7.0 to 3.7.1 ([3f97549](https://github.com/wmfs/pg-model/commit/3f97549524860177f3cc3f9961eb085f9a6640ad))
+* **deps-dev:** bump codecov from 3.7.1 to 3.7.2 ([d25e4fe](https://github.com/wmfs/pg-model/commit/d25e4fe514958e8d088268b7cc0d5f99777cdbae))
+* **deps-dev:** bump mocha from 8.0.1 to 8.1.0 ([410b48c](https://github.com/wmfs/pg-model/commit/410b48c649e624d9dbb49fc201711f652e9358c9))
+* **deps-dev:** bump mocha from 8.1.0 to 8.1.1 ([21f3e69](https://github.com/wmfs/pg-model/commit/21f3e69d96bd7d3d3b2add5b293a63a45b4654ed))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([cb2ff5e](https://github.com/wmfs/pg-model/commit/cb2ff5e173b74fcce6de590b3ade78dc67cddb70))
+
 # [1.23.0](https://github.com/wmfs/pg-model/compare/v1.22.1...v1.23.0) (2020-07-13)
 
 
