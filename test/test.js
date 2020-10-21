@@ -193,6 +193,20 @@ describe('Callback API', function () {
         )
       })
 
+      it('find who is not 36', function (done) {
+        models.pgmodelTest.person.find(
+          {
+            where: {
+              age: { notEquals: 36 }
+            }
+          },
+          function (err, doc) {
+            expect(doc.length).to.eql(3)
+            done(err)
+          }
+        )
+      })
+
       it('find who is older than or equal to 36', function (done) {
         models.pgmodelTest.person.find(
           {
