@@ -1,3 +1,27 @@
+# [1.25.0](https://github.com/wmfs/pg-model/compare/v1.24.0...v1.25.0) (2020-10-21)
+
+
+### ✨ Features
+
+* option for notEquals ([2836684](https://github.com/wmfs/pg-model/commit/28366843bb091f116e4eb98e894412019085418a))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.22.0 to 1.23.0 ([f75fe67](https://github.com/wmfs/pg-model/commit/f75fe679c8f0fe78927ec7e3063bdddbd8994480))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.23.0 to 1.25.0 ([2b05c64](https://github.com/wmfs/pg-model/commit/2b05c64413eeafc8cf732f7760c7f0673e31421d))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/pg-diff-sync from 1.21.0 to 1.22.0 ([fa74f88](https://github.com/wmfs/pg-model/commit/fa74f889baca2da3f8e778e068a82120a83333c0))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/pg-diff-sync from 1.22.0 to 1.23.0 ([e6a526a](https://github.com/wmfs/pg-model/commit/e6a526ad16ec2d0f8ddc7d0a819582cae39d7bd0))
+* **deps-dev:** bump codecov from 3.7.2 to 3.8.0 ([79435fc](https://github.com/wmfs/pg-model/commit/79435fcf3b8c3bee27b23bc5c1b8a81d610628e6))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.0 to 3.2.1 ([91362cd](https://github.com/wmfs/pg-model/commit/91362cda25bf0a93ff820068045544dd9fff215e))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.1 to 3.3.0 ([e5c05c4](https://github.com/wmfs/pg-model/commit/e5c05c4d3c0b97af20f2bfd530371408061629e2))
+* **deps-dev:** bump mocha from 8.1.1 to 8.1.2 ([21aebdc](https://github.com/wmfs/pg-model/commit/21aebdcb09f1398fcade403de776ca4df9df75d9))
+* **deps-dev:** bump mocha from 8.1.2 to 8.1.3 ([e88d5d8](https://github.com/wmfs/pg-model/commit/e88d5d8365705198b2cbfdc87125661945dca4b3))
+* **deps-dev:** bump mocha from 8.1.3 to 8.2.0 ([f0a1143](https://github.com/wmfs/pg-model/commit/f0a11433929558af6704fe83470e51651426bd61))
+* **deps-dev:** bump semantic-release from 17.1.1 to 17.1.2 ([182ecf9](https://github.com/wmfs/pg-model/commit/182ecf90b3744e908f23ced517363398f49a122e))
+* **deps-dev:** bump semantic-release from 17.1.2 to 17.2.0 ([f4fe012](https://github.com/wmfs/pg-model/commit/f4fe012fa7e4e67cff78ec0551b8b54c687c285c))
+* **deps-dev:** bump semantic-release from 17.2.0 to 17.2.1 ([bac2964](https://github.com/wmfs/pg-model/commit/bac29641e165d6378515c1184c99784d0521db17))
+
 # [1.24.0](https://github.com/wmfs/pg-model/compare/v1.23.0...v1.24.0) (2020-08-17)
 
 
