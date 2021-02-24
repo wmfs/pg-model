@@ -1,3 +1,45 @@
+# [1.26.0](https://github.com/wmfs/pg-model/compare/v1.25.0...v1.26.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.20 to 4.17.21 ([213a029](https://github.com/wmfs/pg-model/commit/213a029fa834800906a8067809d0f875fdabc52b))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.25.0 to 1.26.0 ([2b3dc31](https://github.com/wmfs/pg-model/commit/2b3dc319fd6408c753eb5083f0d7b895fa24e748))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.26.0 to 1.27.0 ([decb984](https://github.com/wmfs/pg-model/commit/decb98470305950d0b993be6b80a4ca8239c8fa5))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/pg-diff-sync from 1.23.0 to 1.24.0 ([1404f29](https://github.com/wmfs/pg-model/commit/1404f2905f37ebef117c8d9d9159422e72342d8e))
+* **deps-dev:** bump chai from 4.2.0 to 4.3.0 ([4c3054b](https://github.com/wmfs/pg-model/commit/4c3054b009d39a443b718e503c3df6dd31c55885))
+* **deps-dev:** bump codecov from 3.8.0 to 3.8.1 ([e4fb66f](https://github.com/wmfs/pg-model/commit/e4fb66ff5dce9de4ef70a2a4accf5d39925e5dba))
+* **deps-dev:** bump mocha from 8.2.0 to 8.2.1 ([2d1b366](https://github.com/wmfs/pg-model/commit/2d1b366bc29b92f5deca0916c2316e049cddae79))
+* **deps-dev:** bump mocha from 8.2.1 to 8.3.0 ([ebc53b0](https://github.com/wmfs/pg-model/commit/ebc53b099c077f88dac4b1ef31773548655ee1b6))
+* **deps-dev:** bump semantic-release from 17.2.1 to 17.2.2 ([c4ef8d0](https://github.com/wmfs/pg-model/commit/c4ef8d0137dd154eb3ee036fe9425eee16a9eb35))
+* **deps-dev:** bump semantic-release from 17.2.2 to 17.2.3 ([41b8856](https://github.com/wmfs/pg-model/commit/41b8856a8c2d7c0af64db481a833e9c8e69b1aed))
+* **deps-dev:** bump semantic-release from 17.2.3 to 17.2.4 ([7fef81b](https://github.com/wmfs/pg-model/commit/7fef81be399c480c40405d4771bb51f546bc8a6a))
+* **deps-dev:** bump semantic-release from 17.2.4 to 17.3.0 ([f00ae45](https://github.com/wmfs/pg-model/commit/f00ae45c632fb79cd9619adfab833b2fd0ac8e6a))
+* **deps-dev:** bump semantic-release from 17.3.0 to 17.3.1 ([f6ad19e](https://github.com/wmfs/pg-model/commit/f6ad19e7c373ba383ffa1f8df5d671b2e9d6da5d))
+* **deps-dev:** bump semantic-release from 17.3.1 to 17.3.2 ([950dab8](https://github.com/wmfs/pg-model/commit/950dab85f836c6de2122308702a2d1f705dd7cfc))
+* **deps-dev:** bump semantic-release from 17.3.2 to 17.3.3 ([ae02b29](https://github.com/wmfs/pg-model/commit/ae02b29e210a68acbe68123f8810f149505c559c))
+* **deps-dev:** bump semantic-release from 17.3.3 to 17.3.4 ([e42ac26](https://github.com/wmfs/pg-model/commit/e42ac26ccaacab4c7ecdd4c7bc23bd594f408d79))
+* **deps-dev:** bump semantic-release from 17.3.4 to 17.3.5 ([b2c53f8](https://github.com/wmfs/pg-model/commit/b2c53f8be54b17ac0607ad8edbcef6da4e163a39))
+* **deps-dev:** bump semantic-release from 17.3.5 to 17.3.6 ([9cca082](https://github.com/wmfs/pg-model/commit/9cca082ad042800c113eb98c2e4b818f3a1b4ddb))
+* **deps-dev:** bump semantic-release from 17.3.6 to 17.3.7 ([07002b6](https://github.com/wmfs/pg-model/commit/07002b63c0b9747626a87460ecd5aff691d27d04))
+* **deps-dev:** bump semantic-release from 17.3.7 to 17.3.8 ([7a34768](https://github.com/wmfs/pg-model/commit/7a347687b68c78d581396c106e1954b9c8ef8911))
+* **deps-dev:** bump semantic-release from 17.3.8 to 17.3.9 ([0fc578f](https://github.com/wmfs/pg-model/commit/0fc578f0312bc8d0fb12cf94fdabbc321b308c99))
+* **deps-dev:** bump standard from 14.3.4 to 15.0.0 ([d1f886c](https://github.com/wmfs/pg-model/commit/d1f886c6580dff5586ae5e8c708e3afac7f737ca))
+* **deps-dev:** bump standard from 15.0.0 to 15.0.1 ([e696781](https://github.com/wmfs/pg-model/commit/e696781e0a8886f78b06f403ef2b8418db827aa7))
+* **deps-dev:** bump standard from 15.0.1 to 16.0.0 ([01f3e12](https://github.com/wmfs/pg-model/commit/01f3e129072ddca00ab9390d561a73cbb0a3121f))
+* **deps-dev:** bump standard from 16.0.0 to 16.0.1 ([e06ccc7](https://github.com/wmfs/pg-model/commit/e06ccc72665fe60d4ef973c30f498e1c4d3724e9))
+* **deps-dev:** bump standard from 16.0.1 to 16.0.2 ([22ee436](https://github.com/wmfs/pg-model/commit/22ee436eb88e66397355ce5f797bb9487db896bb))
+* **deps-dev:** bump standard from 16.0.2 to 16.0.3 ([a754c25](https://github.com/wmfs/pg-model/commit/a754c25db6a51cf2c9e0dc025d723e75c925991d))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([4ad76cc](https://github.com/wmfs/pg-model/commit/4ad76cca9859f738cf92fec9377e46c4fcaf4498))
+* **circle:** cache dependencies [ch2770] ([5e54f83](https://github.com/wmfs/pg-model/commit/5e54f8313b6907b50fb528df08a530d9c6c9f51f))
+* **circle:** separate linting job [ch1009] ([4e3a7fc](https://github.com/wmfs/pg-model/commit/4e3a7fc2d37e2fce88d4b5489a313e6baf5c40ac))
+* **circle:** update build environment variable context name [ch2771] ([0c7b9cd](https://github.com/wmfs/pg-model/commit/0c7b9cd32a7b460d6f0b9294bb5872e4b2531cc5))
+* **circle:** use tmpfs postgres image [ch2769] ([5bb9fd2](https://github.com/wmfs/pg-model/commit/5bb9fd2a78b4c27ca2ba7b74fe9d0e4b2209b505))
+
 # [1.25.0](https://github.com/wmfs/pg-model/compare/v1.24.0...v1.25.0) (2020-10-21)
 
 
