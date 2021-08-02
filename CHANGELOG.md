@@ -1,3 +1,52 @@
+## [1.26.1](https://github.com/wmfs/pg-model/compare/v1.26.0...v1.26.1) (2021-08-02)
+
+
+### 🐛 Bug Fixes
+
+* apply the modified col update on upsert ([d0b4464](https://github.com/wmfs/pg-model/commit/d0b4464089aa28fe527c3c1e41a32976c7e84594))
+* check modified column on upsert tests ([89a2d07](https://github.com/wmfs/pg-model/commit/89a2d07e4cd68d0799cb80747965a2ab1bf04e92))
+* Issue [#292](https://github.com/wmfs/pg-model/issues/292) modified column not updating ([e7e78c5](https://github.com/wmfs/pg-model/commit/e7e78c5a199254f1b91fe912787b1da688a156ef))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.27.0 to 1.28.0 ([da67f3c](https://github.com/wmfs/pg-model/commit/da67f3c1b0a15cc3cf4fc68dd3d8c9385fd7fef1))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/pg-diff-sync from 1.24.0 to 1.25.0 ([abed61d](https://github.com/wmfs/pg-model/commit/abed61dfb49c3b3710f9b5473940106094ec4543))
+* **deps-dev:** bump chai from 4.3.0 to 4.3.1 ([75eb3bf](https://github.com/wmfs/pg-model/commit/75eb3bfccfef038b94ea57232465058ea4768650))
+* **deps-dev:** bump chai from 4.3.1 to 4.3.2 ([ee978e6](https://github.com/wmfs/pg-model/commit/ee978e69fe0a64cb30c77024ada2c008b96d2d66))
+* **deps-dev:** bump chai from 4.3.2 to 4.3.3 ([084f52b](https://github.com/wmfs/pg-model/commit/084f52b67ab9c73e16906ecfbd8addc3371b4a91))
+* **deps-dev:** bump chai from 4.3.3 to 4.3.4 ([d2d4921](https://github.com/wmfs/pg-model/commit/d2d49219698f27a2a7d08a1c950593f9ef232d5a))
+* **deps-dev:** bump codecov from 3.8.1 to 3.8.2 ([6661438](https://github.com/wmfs/pg-model/commit/66614386c6ba21feccd7ea891d45dfca8feb2821))
+* **deps-dev:** bump codecov from 3.8.2 to 3.8.3 ([24475b2](https://github.com/wmfs/pg-model/commit/24475b2b2715633be1d3c39830494a9e65f94bc2))
+* **deps-dev:** bump mocha from 8.3.0 to 8.3.1 ([a3cd81d](https://github.com/wmfs/pg-model/commit/a3cd81d91b2d2578cdb2fe7f20eec12ac19d085e))
+* **deps-dev:** bump mocha from 8.3.1 to 8.3.2 ([4de4cb6](https://github.com/wmfs/pg-model/commit/4de4cb6894ad9e5189cd3855648f0ad03f3032f6))
+* **deps-dev:** bump mocha from 8.3.2 to 8.4.0 ([8b085ea](https://github.com/wmfs/pg-model/commit/8b085ea97587937ee7f45bfafb7de819a3c5649f))
+* **deps-dev:** bump mocha from 8.4.0 to 9.0.0 ([1eedb12](https://github.com/wmfs/pg-model/commit/1eedb1281b3a1ec4123226600879c66d5a1ca66b))
+* **deps-dev:** bump mocha from 9.0.0 to 9.0.1 ([45c0f0b](https://github.com/wmfs/pg-model/commit/45c0f0b5965e57f6ef56ae2dd6f0fb69c4abaeee))
+* **deps-dev:** bump mocha from 9.0.1 to 9.0.2 ([c8321fe](https://github.com/wmfs/pg-model/commit/c8321feda016dbef9b97dc40a129509ca8fe03ef))
+* **deps-dev:** bump mocha from 9.0.2 to 9.0.3 ([b8df0fa](https://github.com/wmfs/pg-model/commit/b8df0fa8526943ec9a78a738b4a3eccabbfed2fd))
+* **deps-dev:** bump semantic-release from 17.3.9 to 17.4.0 ([2b4e988](https://github.com/wmfs/pg-model/commit/2b4e9881d8b98f765c5f0929b83ec885b0bb086c))
+* **deps-dev:** bump semantic-release from 17.4.0 to 17.4.1 ([d421f57](https://github.com/wmfs/pg-model/commit/d421f578d2c091d98f3d4c01e80ea4a857ed307c))
+* **deps-dev:** bump semantic-release from 17.4.1 to 17.4.2 ([8d8d7de](https://github.com/wmfs/pg-model/commit/8d8d7de06e575e524f2d85112c8acab405e4d13f))
+* **deps-dev:** bump semantic-release from 17.4.2 to 17.4.3 ([c9ff021](https://github.com/wmfs/pg-model/commit/c9ff0213ff9062b33fb01dba2141a1658e0286b6))
+* **deps-dev:** bump semantic-release from 17.4.3 to 17.4.4 ([909c2cd](https://github.com/wmfs/pg-model/commit/909c2cd0eb91c836c2feb93a693dad0cabb66bca))
+
+
+### 🚨 Tests
+
+* Issue [#292](https://github.com/wmfs/pg-model/issues/292) modified column not updating - update expects ([165bfa3](https://github.com/wmfs/pg-model/commit/165bfa316c8cc0f6db0dd6fda716cb2817266842))
+* Issue [#292](https://github.com/wmfs/pg-model/issues/292) modified column not updating - update expects ([82a8352](https://github.com/wmfs/pg-model/commit/82a83524d660040cf02bce1ae743fecc1822bdaf))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** update postgres config to 13.2 ([faecb3f](https://github.com/wmfs/pg-model/commit/faecb3fb81dbfd9ccd9bf0d01979615dfcac41fe))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([91b261e](https://github.com/wmfs/pg-model/commit/91b261e37e49ab2830ce557cd293af42e08cd8e0))
+
 # [1.26.0](https://github.com/wmfs/pg-model/compare/v1.25.0...v1.26.0) (2021-02-24)
 
 
