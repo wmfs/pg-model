@@ -205,6 +205,9 @@ describe('UserId injection test', function () {
         createdBy: 'upserter',
         modifiedBy: null
       })
+
+      // record was inserted, therefore timestamps should be the same
+      expect(doc.created).to.eql(doc.modified)
     })
 
     it('upsert (update) Grampa', () => {
@@ -231,6 +234,9 @@ describe('UserId injection test', function () {
         createdBy: 'upserter',
         modifiedBy: 'second-upserter'
       })
+
+      // modified column is provided in this test, therefore does update
+      expect(doc.created).to.not.eql(doc.modified)
     })
   })
 
