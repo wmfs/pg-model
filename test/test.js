@@ -665,6 +665,7 @@ describe('Callback API', function () {
                 age: 82
               }
             )
+            expect(doc.created).to.eql(doc.modified) // record was inserted, therefore timestamps should be the same
             done()
           }
         )
@@ -699,6 +700,7 @@ describe('Callback API', function () {
                 age: 83
               }
             )
+            expect(doc.created).to.eql(doc.modified) // modified column is not provided in this test, therefore does not update
             done()
           }
         )
