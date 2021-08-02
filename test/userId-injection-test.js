@@ -123,6 +123,7 @@ describe('UserId injection test', function () {
           modifiedBy: 'modifier'
         }
       )
+      expect(doc.created).to.not.eql(doc.modified) // modified column is not provided in this test, therefore does update
     })
 
     it('update Maggie again, but this time without an age', async () => {
