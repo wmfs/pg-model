@@ -525,6 +525,7 @@ describe('Callback API', function () {
           2,
           function (err, doc) {
             expect(err).to.equal(null)
+            expect(doc.created).to.eql(doc.modified) // modified column is not provided in this test, therefore does not update
             expect(doc).to.containSubset(
               {
                 employeeNo: '2',
