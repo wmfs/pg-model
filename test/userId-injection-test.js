@@ -57,7 +57,8 @@ describe('UserId injection test', function () {
           service: {
             currentUser: () => testUser,
             createdByField: '_created_by',
-            modifiedByField: '_modified_by'
+            modifiedByField: '_modified_by',
+            modifiedField: '_modified'
           }
         }
       )
