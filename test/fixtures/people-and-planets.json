@@ -74,6 +74,14 @@
               "characterMaximumLength": null,
               "numericScale": null,
               "comment": "UserID that last modified this record (if known)"
+            },
+            "date": {
+              "columnDefault": null,
+              "isNullable": "YES",
+              "dataType": "timestamp with time zone",
+              "characterMaximumLength": null,
+              "numericScale": null,
+              "comment": "Timestamp for testing finding by datetime"
             }
           },
           "indexes": {

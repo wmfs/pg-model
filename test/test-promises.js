@@ -70,7 +70,8 @@ describe('Promise API', function () {
             employeeNo: 1,
             firstName: 'Homer',
             lastName: 'Simpson',
-            age: 39
+            age: 39,
+            date: new Date('2021-08-13')
           },
           {}
         )
@@ -88,19 +89,22 @@ describe('Promise API', function () {
             {
               employeeNo: 2,
               firstName: 'Maggie',
-              lastName: 'Simpson'
+              lastName: 'Simpson',
+              date: new Date('2021-08-13')
             },
             {
               employeeNo: 3,
               firstName: 'Lisa',
               lastName: 'Simpson',
-              age: 8
+              age: 8,
+              date: new Date('2021-08-10')
             },
             {
               employeeNo: 4,
               firstName: 'Marge',
               lastName: 'Simpson',
-              age: 36
+              age: 36,
+              date: new Date('2021-08-06')
             },
             {
               employeeNo: 5,
@@ -432,6 +436,45 @@ describe('Promise API', function () {
           employeeNo: '5',
           name: 'Bart Simpson'
         })
+      })
+
+      it('find where date equals', async () => {
+        const doc = await models.pgmodelTest.person.find(
+          {
+            where: {
+              date: { equals: new Date('2021-08-13') }
+            },
+            fields: ['employeeNo', 'date']
+          }
+        )
+        expect(doc.map(({ employeeNo }) => employeeNo)).to.eql(['1', '2'])
+        expect(doc.length).to.eql(2)
+      })
+
+      it('find where date more then', async () => {
+        const doc = await models.pgmodelTest.person.find(
+          {
+            where: {
+              date: { moreThan: new Date('2021-08-11') }
+            },
+            fields: ['employeeNo', 'date']
+          }
+        )
+        expect(doc.map(({ employeeNo }) => employeeNo)).to.eql(['1', '2'])
+        expect(doc.length).to.eql(2)
+      })
+
+      it('find where date less then', async () => {
+        const doc = await models.pgmodelTest.person.find(
+          {
+            where: {
+              date: { lessThan: new Date('2021-08-11') }
+            },
+            fields: ['employeeNo', 'date']
+          }
+        )
+        expect(doc.map(({ employeeNo }) => employeeNo)).to.eql(['3', '4'])
+        expect(doc.length).to.eql(2)
       })
     })
 
