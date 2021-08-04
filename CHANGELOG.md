@@ -1,3 +1,15 @@
+## [1.26.2](https://github.com/wmfs/pg-model/compare/v1.26.1...v1.26.2) (2021-08-04)
+
+
+### 🐛 Bug Fixes
+
+* default options and fix typo ([f1c6644](https://github.com/wmfs/pg-model/commit/f1c66449a95507b7c5fdf1e0992d939287fbd879))
+
+
+### 🚨 Tests
+
+* add tests to ensure dates can be queried ([47b0a01](https://github.com/wmfs/pg-model/commit/47b0a01e3d4a0d9df3167dd137775e46c554bcb6))
+
 ## [1.26.1](https://github.com/wmfs/pg-model/compare/v1.26.0...v1.26.1) (2021-08-02)
 
 
