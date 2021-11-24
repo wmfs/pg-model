@@ -1,3 +1,15 @@
+## [1.26.3](https://github.com/wmfs/pg-model/compare/v1.26.2...v1.26.3) (2021-11-24)
+
+
+### 🐛 Bug Fixes
+
+* check where is not empty object ([110901f](https://github.com/wmfs/pg-model/commit/110901f5e26fbc70f19ef43df95c24527432cd45))
+
+
+### ⚙️ Continuous Integrations
+
+* **travis:** remove old travis config ([5f2980a](https://github.com/wmfs/pg-model/commit/5f2980a7a84571e9e025a4f17a00cde901ef5343))
+
 ## [1.26.2](https://github.com/wmfs/pg-model/compare/v1.26.1...v1.26.2) (2021-08-04)
 
 
