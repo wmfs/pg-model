@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/wmfs/pg-model/compare/v1.26.3...v1.27.0) (2021-11-24)
+
+
+### ✨ Features
+
+* model and view functions to find counts ([8f61864](https://github.com/wmfs/pg-model/commit/8f6186440ee6797b1ce2f32b388e06f0bde6902e))
+
 ## [1.26.3](https://github.com/wmfs/pg-model/compare/v1.26.2...v1.26.3) (2021-11-24)
 
 
