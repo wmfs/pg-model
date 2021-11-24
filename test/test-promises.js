@@ -649,6 +649,60 @@ describe('Promise API', function () {
       })
     })
 
+    describe('find counts', () => {
+      it('count all documents', async () => {
+        const doc = await models.pgmodelTest.person.findCount()
+        expect(doc).to.eql(5)
+      })
+
+      it('count one Homer by first name and last name', async () => {
+        const doc = await models.pgmodelTest.person.findCount({
+          where: {
+            firstName: { equals: 'Homer' },
+            lastName: { equals: 'Simpson' }
+          }
+        })
+        expect(doc).to.eql(1)
+      })
+
+      it('count one Homer by name', async () => {
+        const doc = await models.pgmodelTest.peeps.findCount({
+          where: {
+            name: { equals: 'Homer Simpson' }
+          }
+        })
+        expect(doc).to.eql(1)
+      })
+
+      it('shouldn\'t count one missing person', async () => {
+        const doc = await models.pgmodelTest.person.findCount({
+          where: {
+            firstName: { equals: 'Ned' },
+            lastName: { equals: 'Flanders' }
+          }
+        })
+        expect(doc).to.eql(0)
+      })
+
+      it('shouldn\'t count one missing peep', async () => {
+        const doc = await models.pgmodelTest.peeps.findCount({
+          where: {
+            name: { equals: 'Ned Flanders' }
+          }
+        })
+        expect(doc).to.eql(0)
+      })
+
+      it('count Bart or Lisa by first name', async () => {
+        const doc = await models.pgmodelTest.person.findCount({
+          where: {
+            firstName: { equals: ['Bart', 'Lisa'] }
+          }
+        })
+        expect(doc).to.eql(2)
+      })
+    })
+
     describe('destroy', () => {
       it('delete Maggie/Margaret by via her id', () => {
         return models.pgmodelTest.person.destroyById(2)

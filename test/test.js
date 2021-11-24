@@ -503,6 +503,90 @@ describe('Callback API', function () {
       })
     })
 
+    describe('find counts', () => {
+      it('count all documents', (done) => {
+        models.pgmodelTest.person.findCount(
+          {},
+          (err, doc) => {
+            expect(doc).to.eql(5)
+            done(err)
+          }
+        )
+      })
+
+      it('count one Homer by first name and last name', (done) => {
+        models.pgmodelTest.person.findCount(
+          {
+            where: {
+              firstName: { equals: 'Homer' },
+              lastName: { equals: 'Simpson' }
+            }
+          },
+          (err, doc) => {
+            expect(doc).to.eql(1)
+            done(err)
+          }
+        )
+      })
+
+      it('count one Homer by name', (done) => {
+        models.pgmodelTest.peeps.findCount(
+          {
+            where: {
+              name: { equals: 'Homer Simpson' }
+            }
+          },
+          (err, doc) => {
+            expect(doc).to.eql(1)
+            done(err)
+          }
+        )
+      })
+
+      it('shouldn\'t count one missing person', (done) => {
+        models.pgmodelTest.person.findCount(
+          {
+            where: {
+              firstName: { equals: 'Ned' },
+              lastName: { equals: 'Flanders' }
+            }
+          },
+          (err, doc) => {
+            expect(doc).to.eql(0)
+            done(err)
+          }
+        )
+      })
+
+      it('shouldn\'t count one missing peep', (done) => {
+        models.pgmodelTest.peeps.findCount(
+          {
+            where: {
+              name: { equals: 'Ned Flanders' }
+            }
+          },
+          (err, doc) => {
+            expect(doc).to.eql(0)
+            done(err)
+          }
+        )
+      })
+
+      it('count Bart or Lisa by first name', (done) => {
+        models.pgmodelTest.person.findCount(
+          {
+            where: {
+              firstName: { equals: ['Bart', 'Lisa'] }
+            }
+          },
+          (err, doc) => {
+            expect(doc).to.eql(2)
+            done(err)
+          }
+        )
+      })
+    })
+
     describe('update', () => {
       it('update Maggie\'s age to 1', function (done) {
         models.pgmodelTest.person.update(
