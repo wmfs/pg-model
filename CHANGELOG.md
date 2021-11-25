@@ -1,3 +1,10 @@
+## [1.28.1](https://github.com/wmfs/pg-model/compare/v1.28.0...v1.28.1) (2021-11-25)
+
+
+### 🐛 Bug Fixes
+
+* check fields is not empty array ([4d1387e](https://github.com/wmfs/pg-model/commit/4d1387e0fdb2bb177fd20233490cf83ddefbaac3))
+
 # [1.28.0](https://github.com/wmfs/pg-model/compare/v1.27.0...v1.28.0) (2021-11-25)
 
 
