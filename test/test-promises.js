@@ -1099,6 +1099,67 @@ describe('Promise API', function () {
     })
   })
 
+  describe('searching', () => {
+    it('search all documents without options', async () => {
+      const doc = await models.pgmodelTest.person.search({})
+      expect(doc.page).to.eql(1)
+      expect(doc.totalPages).to.eql(1)
+      expect(doc.totalHits).to.eql(5)
+      expect(doc.results.length).to.eql(5)
+    })
+
+    it('search all documents with offset as 2', async () => {
+      const doc = await models.pgmodelTest.person.search({ offset: 2 })
+      expect(doc.page).to.eql(1)
+      expect(doc.totalPages).to.eql(1)
+      expect(doc.totalHits).to.eql(5)
+      expect(doc.results.length).to.eql(3)
+    })
+
+    it('search all documents with limit as 2', async () => {
+      const doc = await models.pgmodelTest.person.search({ limit: 2 })
+      expect(doc.page).to.eql(1)
+      expect(doc.totalPages).to.eql(3)
+      expect(doc.totalHits).to.eql(5)
+      expect(doc.results.length).to.eql(2)
+    })
+
+    it('search all documents with limit as 2 and page as 2', async () => {
+      const doc = await models.pgmodelTest.person.search({ limit: 2, page: 2 })
+      expect(doc.page).to.eql(2)
+      expect(doc.totalPages).to.eql(3)
+      expect(doc.totalHits).to.eql(5)
+      expect(doc.results.length).to.eql(2)
+    })
+
+    it('search all documents with limit as 2 and offset as 4', async () => {
+      const doc = await models.pgmodelTest.person.search({ limit: 2, offset: 4 })
+      expect(doc.totalPages).to.eql(3)
+      expect(doc.totalHits).to.eql(5)
+      expect(doc.results.length).to.eql(1)
+    })
+
+    it('search all documents with filter on and order by age', async () => {
+      const doc = await models.pgmodelTest.person.search({
+        orderBy: ['-age'],
+        fields: ['firstName', 'lastName'],
+        where: {
+          age: { moreThan: 30 }
+        }
+      })
+      expect(doc.page).to.eql(1)
+      expect(doc.totalPages).to.eql(1)
+      expect(doc.totalHits).to.eql(2)
+      expect(doc.results.length).to.eql(2)
+      expect(doc.results[0].firstName).to.eql('Homer')
+      expect(
+        Object.keys(doc.results[0]).sort()
+      ).to.eql(
+        ['firstName', 'lastName']
+      )
+    })
+  })
+
   describe('cleanup', () => {
     it('finally drop-cascade the pg_model_test schema', async () => {
       await client.runFile(path.resolve(__dirname, path.join('fixtures', 'scripts', 'uninstall.sql')))

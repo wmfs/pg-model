@@ -1158,6 +1158,98 @@ describe('Callback API', function () {
     })
   })
 
+  describe('searching', () => {
+    it('search all documents without options', done => {
+      models.pgmodelTest.person.search(
+        {},
+        (err, doc) => {
+          expect(doc.page).to.eql(1)
+          expect(doc.totalPages).to.eql(1)
+          expect(doc.totalHits).to.eql(5)
+          expect(doc.results.length).to.eql(5)
+          done(err)
+        }
+      )
+    })
+
+    it('search all documents with offset as 2', done => {
+      models.pgmodelTest.person.search(
+        { offset: 2 },
+        (err, doc) => {
+          expect(doc.page).to.eql(1)
+          expect(doc.totalPages).to.eql(1)
+          expect(doc.totalHits).to.eql(5)
+          expect(doc.results.length).to.eql(3)
+          done(err)
+        }
+      )
+    })
+
+    it('search all documents with limit as 2', done => {
+      models.pgmodelTest.person.search(
+        { limit: 2 },
+        (err, doc) => {
+          expect(doc.page).to.eql(1)
+          expect(doc.totalPages).to.eql(3)
+          expect(doc.totalHits).to.eql(5)
+          expect(doc.results.length).to.eql(2)
+          done(err)
+        }
+      )
+    })
+
+    it('search all documents with limit as 2 and page as 2', done => {
+      models.pgmodelTest.person.search(
+        { limit: 2, page: 2 },
+        (err, doc) => {
+          expect(doc.page).to.eql(2)
+          expect(doc.totalPages).to.eql(3)
+          expect(doc.totalHits).to.eql(5)
+          expect(doc.results.length).to.eql(2)
+          done(err)
+        }
+      )
+    })
+
+    it('search all documents with limit as 2 and offset as 4', done => {
+      models.pgmodelTest.person.search(
+        { limit: 2, offset: 4 },
+        (err, doc) => {
+          expect(doc.page).to.eql(1)
+          expect(doc.totalPages).to.eql(3)
+          expect(doc.totalHits).to.eql(5)
+          expect(doc.results.length).to.eql(1)
+          done(err)
+        }
+      )
+    })
+
+    it('search all documents with filter on and order by age', done => {
+      models.pgmodelTest.person.search(
+        {
+          orderBy: ['-age'],
+          fields: ['firstName', 'lastName'],
+          where: {
+            age: { moreThan: 30 }
+          }
+        },
+        (err, doc) => {
+          expect(doc.page).to.eql(1)
+          expect(doc.totalPages).to.eql(1)
+          expect(doc.totalHits).to.eql(2)
+          expect(doc.results.length).to.eql(2)
+          expect(doc.results[0].firstName).to.eql('Homer')
+          expect(
+            Object.keys(doc.results[0]).sort()
+          ).to.eql(
+            ['firstName', 'lastName']
+          )
+          done(err)
+        }
+      )
+    })
+  })
+
   describe('cleanup', () => {
     it('finally drop-cascade the pg_model_test schema', async () => {
       await client.runFile(path.resolve(__dirname, path.join('fixtures', 'scripts', 'uninstall.sql')))
