@@ -1,3 +1,18 @@
+# [1.28.0](https://github.com/wmfs/pg-model/compare/v1.27.0...v1.28.0) (2021-11-25)
+
+
+### ✨ Features
+
+* ability to search model ([6b865ee](https://github.com/wmfs/pg-model/commit/6b865ee5155c1ef1f55b5d86b6e73390ead4133c))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency mocha to v9.1.3 ([d50db58](https://github.com/wmfs/pg-model/commit/d50db58341ebb2e2eefea7388f256676b1633652))
+* **deps-dev:** update dependency standard to v16.0.4 ([aa9609d](https://github.com/wmfs/pg-model/commit/aa9609dc6c71d7c275968c255e2e7cbec1fd95dd))
+* **deps-dev:** update semantic-release monorepo ([b0d613c](https://github.com/wmfs/pg-model/commit/b0d613c318564b1a799991de5ac438cb6ce46337))
+* **deps-dev:** update semantic-release monorepo ([1496c46](https://github.com/wmfs/pg-model/commit/1496c465f8851643b81af343ad12021e9c9cdc96))
+
 # [1.27.0](https://github.com/wmfs/pg-model/compare/v1.26.3...v1.27.0) (2021-11-24)
 
 
