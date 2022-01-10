@@ -20,7 +20,7 @@
   },
   "main": "./lib/index.js",
   "dependencies": {
-    "async": "3.2.0",
+    "async": "3.2.3",
     "dottie": "2.0.2",
     "lodash": "4.17.21"
   },
