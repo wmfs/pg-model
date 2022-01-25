@@ -1,3 +1,18 @@
+# [1.29.0](https://github.com/wmfs/pg-model/compare/v1.28.1...v1.29.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency mocha to v9.1.4 ([e47c043](https://github.com/wmfs/pg-model/commit/e47c043f33449f07cc9f4721347442e54669de0a))
+* **deps-dev:** update dependency mocha to v9.2.0 ([f8baed9](https://github.com/wmfs/pg-model/commit/f8baed9ca29be08752dd41b0ad9cc103572ca0e9))
+* **deps-dev:** update dependency semantic-release to v19 ([4304a19](https://github.com/wmfs/pg-model/commit/4304a19c7d09ee8b473668353adc23141842a04b))
+* **deps:** update dependency async to v3.2.3 ([3c1a7f3](https://github.com/wmfs/pg-model/commit/3c1a7f3ac7b7b5271355de5ff2a2f816ce5424af))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** CircleCI update next gen PostgreSQL image [sc-11442] ([ade3b0d](https://github.com/wmfs/pg-model/commit/ade3b0d27f68c7708a806f593687f90bd0a6c0d0))
+
 ## [1.28.1](https://github.com/wmfs/pg-model/compare/v1.28.0...v1.28.1) (2021-11-25)
 
 
