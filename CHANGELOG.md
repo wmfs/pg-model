@@ -1,3 +1,23 @@
+## [1.29.1](https://github.com/wmfs/pg-model/compare/v1.29.0...v1.29.1) (2022-02-21)
+
+
+### 🐛 Bug Fixes
+
+* issue with updating with multiple keys ([4ef2cfe](https://github.com/wmfs/pg-model/commit/4ef2cfe5c4f7978d0358498cb25997af432d3c17))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/hl-pg-client to v1.29.0 ([413e440](https://github.com/wmfs/pg-model/commit/413e44002010d90ce938efd5653d4502cb83a318))
+* **deps-dev:** update dependency chai to v4.3.5 ([8c8e4a9](https://github.com/wmfs/pg-model/commit/8c8e4a91060f5ea9f5a25e1994d74ab24c54f06f))
+* **deps-dev:** update dependency chai to v4.3.6 ([73d06c6](https://github.com/wmfs/pg-model/commit/73d06c6e16a86ca91b604f94ca04663e02b9c62e))
+* **deps-dev:** update dependency mocha to v9.2.1 ([40d5244](https://github.com/wmfs/pg-model/commit/40d5244e366caf6e7d5c001d35d52a8472661b68))
+
+
+### 💎 Styles
+
+* standard fix ([3bb74a2](https://github.com/wmfs/pg-model/commit/3bb74a2b05065303c7ca2028746d0b4536076851))
+
 # [1.29.0](https://github.com/wmfs/pg-model/compare/v1.28.1...v1.29.0) (2022-01-25)
 
 
