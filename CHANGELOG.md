@@ -1,3 +1,14 @@
+# [1.30.0](https://github.com/wmfs/pg-model/compare/v1.29.1...v1.30.0) (2022-06-09)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency mocha to v10 ([1b3d2e8](https://github.com/wmfs/pg-model/commit/1b3d2e81870c0b6f6ac3f8b6a1c6ea34914ab8ed))
+* **deps-dev:** update dependency mocha to v9.2.2 ([9daf60c](https://github.com/wmfs/pg-model/commit/9daf60cdae61407836ec0bb25dc4f451d7b9a824))
+* **deps-dev:** update dependency semantic-release to v19.0.3 ([a4506c3](https://github.com/wmfs/pg-model/commit/a4506c3a5a4a08468ff5c9e202d277f83953818c))
+* **deps-dev:** update dependency standard to v17 ([c92561b](https://github.com/wmfs/pg-model/commit/c92561b7e86979ec343fade0fac48633d808054d))
+* **deps:** bump pg-diff-sync ([3208dd7](https://github.com/wmfs/pg-model/commit/3208dd76f49843f08e62a376fcf9fb0c7886fe82))
+
 ## [1.29.1](https://github.com/wmfs/pg-model/compare/v1.29.0...v1.29.1) (2022-02-21)
 
 
