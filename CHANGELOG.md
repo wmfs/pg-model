@@ -1,3 +1,28 @@
+# [1.32.0](https://github.com/wmfs/pg-model/compare/v1.31.0...v1.32.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.2 ([61a1690](https://github.com/wmfs/pg-model/commit/61a1690126fac6469c6a7edcdb70c36eb3bde9e9))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/hl-pg-client to v1.31.0 ([b757b34](https://github.com/wmfs/pg-model/commit/b757b3412c93378852b1708de528f06f5397fdf1))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/pg-diff-sync to v1.27.0 ([18130a7](https://github.com/wmfs/pg-model/commit/18130a7482e4c642f53af104cb6a51682d47e3b6))
+* **deps-dev:** update dependency chai to v4.3.7 ([c57f52a](https://github.com/wmfs/pg-model/commit/c57f52a5590632ef623e12747137579118a862bf))
+* **deps-dev:** update dependency mocha to v10.2.0 ([c1addd3](https://github.com/wmfs/pg-model/commit/c1addd36e5a6abde3cb2a50bac935ec1389cd30d))
+* **deps-dev:** update dependency semantic-release to v20 ([876c811](https://github.com/wmfs/pg-model/commit/876c811d3bdb3e0564d084ea0d9e6ee3a6c5a83c))
+* **deps-dev:** update dependency semantic-release to v20.0.1 ([81d683b](https://github.com/wmfs/pg-model/commit/81d683b0d611d1f6ae967ba16ea2ce17170e9437))
+* **deps-dev:** update dependency semantic-release to v20.0.2 ([a0e0a88](https://github.com/wmfs/pg-model/commit/a0e0a8877848a806791583e1394ba8650c684d4c))
+* **deps-dev:** update dependency semantic-release to v20.0.3 ([794b810](https://github.com/wmfs/pg-model/commit/794b810755828dd25e6acb3346a990d8e95db9b5))
+* **deps-dev:** update dependency semantic-release to v20.0.4 ([8a28363](https://github.com/wmfs/pg-model/commit/8a283638866a1e837d5cc38490ef18b9cd58dc76))
+* **deps-dev:** update dependency semantic-release to v20.1.0 ([502b44f](https://github.com/wmfs/pg-model/commit/502b44ff7657b6656f1ea70a0789c186e703b1ec))
+* **deps-dev:** update dependency semantic-release to v20.1.1 ([9bdb88e](https://github.com/wmfs/pg-model/commit/9bdb88e0e3b8a4e4c9648197551285a5da4c91d0))
+* **deps:** update dependency dottie to v2.0.3 ([dd96071](https://github.com/wmfs/pg-model/commit/dd9607130ff4934b497571f7ad67b3cb0c8abcc1))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** CircleCI update PostgreSQL image to 15 0 [sc-18659] ([9094c94](https://github.com/wmfs/pg-model/commit/9094c94ecf374b12040160fe9ff0d78c837b94fe))
+* **circle:** update postgres to 15.1-postgis ([7370192](https://github.com/wmfs/pg-model/commit/73701924d68aac6eedb21a42ce0821f7217fbb81))
+
 # [1.31.0](https://github.com/wmfs/pg-model/compare/v1.30.0...v1.31.0) (2022-11-02)
 
 
