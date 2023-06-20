@@ -1,3 +1,24 @@
+# [1.33.0](https://github.com/wmfs/pg-model/compare/v1.32.0...v1.33.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([e091c2b](https://github.com/wmfs/pg-model/commit/e091c2bfdadf61c253f47175b061bb03706731ef))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/pg-diff-sync to v1.29.0 ([22a5823](https://github.com/wmfs/pg-model/commit/22a58234ff6deafd51d213f13a9cc0e517dc2ff5))
+* **deps-dev:** update dependency semantic-release to v20.1.3 ([6b40643](https://github.com/wmfs/pg-model/commit/6b406435e203fe5de2312d5e0454caba89ebfb29))
+* **deps-dev:** update dependency semantic-release to v21 ([5c45c67](https://github.com/wmfs/pg-model/commit/5c45c676d7c8ed9ac34a2f147afbdb756207a051))
+* **deps-dev:** update dependency semantic-release to v21.0.1 ([a62cd23](https://github.com/wmfs/pg-model/commit/a62cd230a29a3cda56d9ff5231a062313dd91d67))
+* **deps-dev:** update dependency semantic-release to v21.0.2 ([fe2f95b](https://github.com/wmfs/pg-model/commit/fe2f95b0496f07a9e724b23caeb88bb879a332a8))
+* **deps-dev:** update dependency semantic-release to v21.0.3 ([e1efb44](https://github.com/wmfs/pg-model/commit/e1efb44a9d26e4e48e34faec28eb3d9fb39b5026))
+* **deps-dev:** update dependency semantic-release to v21.0.5 ([0fa2854](https://github.com/wmfs/pg-model/commit/0fa2854926dfdc5bf119198f2d60533797be087b))
+* **deps-dev:** update dependency standard to v17.1.0 ([22f0f3e](https://github.com/wmfs/pg-model/commit/22f0f3e8b51156e0156d2f224855246e0fe2ece1))
+* **deps:** update dependency dottie to v2.0.4 [security] ([6349a8c](https://github.com/wmfs/pg-model/commit/6349a8c5fc6adba252abc6879b99d8b471dc2d10))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** update postgres to 15.2-postgis [sc-19693] ([4655520](https://github.com/wmfs/pg-model/commit/4655520f15c8dc26469e05b55adb2391159862df))
+
 # [1.32.0](https://github.com/wmfs/pg-model/compare/v1.31.0...v1.32.0) (2023-03-13)
 
 
