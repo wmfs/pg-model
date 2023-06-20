@@ -1,3 +1,10 @@
+# [1.34.0](https://github.com/wmfs/pg-model/compare/v1.33.0...v1.34.0) (2023-06-20)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency dottie to v2.0.6 ([2cada0b](https://github.com/wmfs/pg-model/commit/2cada0b604b75999a13e558de48bb498f591d045))
+
 # [1.33.0](https://github.com/wmfs/pg-model/compare/v1.32.0...v1.33.0) (2023-06-20)
 
 
