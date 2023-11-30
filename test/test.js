@@ -87,7 +87,8 @@ describe('Callback API', function () {
             {
               employeeNo: 2,
               firstName: 'Maggie',
-              lastName: 'Simpson'
+              lastName: 'Simpson',
+              age: null
             },
             {
               employeeNo: 3,
@@ -266,6 +267,35 @@ describe('Callback API', function () {
           function (err, doc) {
             expect(doc.length).to.eql(1)
             expect(doc[0].firstName).to.eql('Marge')
+            done(err)
+          }
+        )
+      })
+
+      it('find people who don\'t have a null name (everyone)', function (done) {
+        models.pgmodelTest.person.find(
+          {
+            where: {
+              firstName: { isNull: false }
+            }
+          },
+          function (err, doc) {
+            expect(doc.length).to.eql(5)
+            done(err)
+          }
+        )
+      })
+
+      it('find someone with a null height', function (done) {
+        models.pgmodelTest.person.find(
+          {
+            where: {
+              age: { isNull: true }
+            }
+          },
+          function (err, doc) {
+            console.log('>> ', doc)
+            expect(doc.length).to.eql(1)
             done(err)
           }
         )
