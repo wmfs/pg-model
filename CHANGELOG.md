@@ -1,3 +1,16 @@
+# [1.35.0](https://github.com/wmfs/pg-model/compare/v1.34.0...v1.35.0) (2024-01-08)
+
+
+### Bug Fixes
+
+* update generateNotes preset ([d1bccdf](https://github.com/wmfs/pg-model/commit/d1bccdf906b92e4ff318aeb058555c8308be3ad5))
+
+
+### Features
+
+* allow for is null/not null in where clause [sc-20986] ([7db9489](https://github.com/wmfs/pg-model/commit/7db94895b5bede083209c793312116b8df8a1072))
+* unit tests and fix on string != bool [sc-20986] ([9a1cc57](https://github.com/wmfs/pg-model/commit/9a1cc5799708cf79a751bc297e04f8b4bab3e7f5))
+
 # [1.34.0](https://github.com/wmfs/pg-model/compare/v1.33.0...v1.34.0) (2023-06-20)
 
 
