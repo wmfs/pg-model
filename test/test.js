@@ -294,7 +294,6 @@ describe('Callback API', function () {
             }
           },
           function (err, doc) {
-            console.log('>> ', doc)
             expect(doc.length).to.eql(1)
             done(err)
           }
