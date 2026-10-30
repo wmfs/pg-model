@@ -1,3 +1,24 @@
+## [1.38.0](https://github.com/wmfs/pg-model/compare/v1.37.1...v1.38.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([1fcb0e5](https://github.com/wmfs/pg-model/commit/1fcb0e548567877181b3d05f9e67fe24db2a8b1f))
+* **deps-dev:** update dependency @wmfs/hl-pg-client to v1.46.1 ([#482](https://github.com/wmfs/pg-model/issues/482)) ([7dd6b98](https://github.com/wmfs/pg-model/commit/7dd6b98b7c544b826d3e9768410318ec08b810cd))
+* **deps-dev:** update dependency @wmfs/pg-diff-sync to v1.33.1 ([#483](https://github.com/wmfs/pg-model/issues/483)) ([52addc9](https://github.com/wmfs/pg-model/commit/52addc99baee4119fdb5ab48f4f70edd12a0236d))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#484](https://github.com/wmfs/pg-model/issues/484)) ([9f6fd83](https://github.com/wmfs/pg-model/commit/9f6fd83c9b75bf7d8abfec1f94bd45a8ce105f12))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#489](https://github.com/wmfs/pg-model/issues/489)) ([84a50f4](https://github.com/wmfs/pg-model/commit/84a50f4d4a27aac8c2d63dc9ff4f84ac498e1e87))
+* **deps-dev:** update dependency mocha to v12 ([#485](https://github.com/wmfs/pg-model/issues/485)) ([e9fa512](https://github.com/wmfs/pg-model/commit/e9fa512793d995cea1758e1e44b211bc3f1770e2))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#486](https://github.com/wmfs/pg-model/issues/486)) ([4365afb](https://github.com/wmfs/pg-model/commit/4365afbce05be00375a76548b9f4fd4e353291f3))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#487](https://github.com/wmfs/pg-model/issues/487)) ([f6c04ff](https://github.com/wmfs/pg-model/commit/f6c04ff74d09cf315156f9ee24cf2ad99a214a05))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#488](https://github.com/wmfs/pg-model/issues/488)) ([8e74eb5](https://github.com/wmfs/pg-model/commit/8e74eb5a024d6c927c0697c4c43395c19d67aea3))
+* **deps:** update dependency dottie to v2.0.7 [security] ([#459](https://github.com/wmfs/pg-model/issues/459)) ([c1fcd92](https://github.com/wmfs/pg-model/commit/c1fcd92e425e18a8c818240caab4da9789112b38))
+* **deps:** update dependency lodash to v4.18.1 [security] ([#454](https://github.com/wmfs/pg-model/issues/454)) ([0217a26](https://github.com/wmfs/pg-model/commit/0217a26e115b50dccd93baca45363fb3453d34c9))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#493](https://github.com/wmfs/pg-model/issues/493)) ([360ad73](https://github.com/wmfs/pg-model/commit/360ad73ab7e42df8ce8c1e947644ccc84d664733))
+* use shared renovate preset [sc-34117] ([#492](https://github.com/wmfs/pg-model/issues/492)) ([d67d352](https://github.com/wmfs/pg-model/commit/d67d35203982a46b41a791120fe4e1102dd4d4e7))
+
 ## [1.37.1](https://github.com/wmfs/pg-model/compare/v1.37.0...v1.37.1) (2026-08-13)
 
 ## [1.37.0](https://github.com/wmfs/pg-model/compare/v1.36.0...v1.37.0) (2025-10-21)
